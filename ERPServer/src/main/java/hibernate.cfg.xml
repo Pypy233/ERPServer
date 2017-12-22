@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings -->
+
+        <!-- 表示使用 mysql 数据库驱动类 -->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+
+        <!-- jdbc 的连接 url 和数据库（使用我们之前新建的 hibernate） -->
+        <property name = "connection.url">
+        jdbc:mysql://localhost:3306/system?useUnicode=true&amp;characterEncoding=UTF-8&amp;useSSL=false</property>
+        <!-- 数据库用户名 -->
+        <property name = "connection.username">root</property>
+
+        <!-- 密码（这里为空） -->
+        <property name = "connection.password">1212hjkl</property>
+
+        <!-- 数据库使用的方言 -->
+        <property name = "dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+        <!-- 设置 打印输出 sql 语句 为真 -->
+        <property name = "show_sql">true</property>
+
+        <!-- 设置格式为 sql -->
+        <property name = "format_sql">true</property>
+
+        <!-- 第一次加载 hibernate 时根据实体类自动建立表结构，以后自动更新表结构 -->
+        <property name = "hbm2ddl.auto">update</property>
+
+        <!-- 使用hibernate自带的连接池-->
+
+        <!-- 映射文件 -->
+        <mapping class = "po.GoodsPO" />
+        <mapping class = "po.ClassifyPO" />
+        <mapping class = "po.CommodityPO"/>
+        <mapping class = "po.MemberPO" />
+        <mapping class = "po.SalePO" />
+        <mapping class = "po.SaleReturnPO"/>
+        <mapping class = "po.StockPO" />
+        <mapping class = "po.StockReturnPO"/>
+        <mapping class = "po.GoodsStockPO"/>
+        <mapping class = "po.GoodsStockReturnPO"/>
+        <mapping class = "po.GoodsSalePO"/>
+        <mapping class = "po.GoodsSaleReturnPO"/>
+        <mapping class = "po.UserPO"/>
+        <mapping class = "po.AdminPO"/>
+    </session-factory>
+</hibernate-configuration>
