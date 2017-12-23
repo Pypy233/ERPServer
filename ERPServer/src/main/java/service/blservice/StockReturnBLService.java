@@ -57,4 +57,22 @@ public interface StockReturnBLService {
      * @throws RemoteException
      */
     public void failStockReturnCheck(StockReturnVO vo) throws  RemoteException;
+
+    /**
+     * 查找并得到销售单
+     * @param startTime
+     * @param endTime
+     * @param userName
+     * @param memberName
+     * @return
+     */
+    public ArrayList<StockReturnVO> getStockReturn(String startTime, String endTime, String userName, String memberName)
+            throws RemoteException;
+
+    /**
+     * 得到未通过销售单
+     * @return
+     */
+    public ArrayList<StockReturnVO> getStockReturnFail() throws RemoteException;
+
 }

@@ -1,5 +1,6 @@
 package service.blservice.Impl;
 
+import objects.POtoVO;
 import objects.ResultMessage;
 import po.MemberPO;
 import service.VOChangeToPO;
@@ -13,6 +14,7 @@ import java.rmi.RemoteException;
 public class MemberBLServiceImpl implements MemberBLService {
     VOChangeToPO voChangeToPO = new VOChangeToPO();
     DataFactory dataFactory = new DataFactoryImpl();
+    POtoVO pOtoVO = new POtoVO();
 
     @Override
     public ResultMessage addMember(MemberVO vo) throws RemoteException{
@@ -39,5 +41,12 @@ public class MemberBLServiceImpl implements MemberBLService {
         MemberPO po = voChangeToPO.membervo_to_memberpo(vo);
         dataFactory.getMemberDataService().update(po);
         return ResultMessage.Success;
+    }
+
+    @Override
+    public MemberVO findMember(int number) {
+        MemberPO po = dataFactory.getMemberDataService().find(number);
+        MemberVO vo  = pOtoVO.memberPO_to_memberVO(po);
+        return vo;
     }
 }

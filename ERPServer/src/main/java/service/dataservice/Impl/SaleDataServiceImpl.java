@@ -1,5 +1,6 @@
 package service.dataservice.Impl;
 
+import objects.DateHelper;
 import objects.HQLTools;
 import objects.ResultMessage;
 import po.GoodsPO;
@@ -11,10 +12,12 @@ import service.datafactory.DataFactoryImpl;
 import service.dataservice.SaleDataService;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Set;
 
 public class SaleDataServiceImpl implements SaleDataService {
 DataFactory dataFactory = new DataFactoryImpl();
+DateHelper dateHelper = new DateHelper();
     @Override
     public ResultMessage add(SalePO po) {
         if(po == null)
@@ -61,5 +64,48 @@ DataFactory dataFactory = new DataFactoryImpl();
             HQLTools.update(goodsPO);
         }
 
+    }
+
+    @Override
+    public void failCheck(SalePO po) {
+        po.setState("fail");
+        HQLTools.update(po);
+    }
+
+    @Override
+    public SalePO addRed(SalePO po) {
+        SalePO po1 = po;
+        Set<GoodsSalePO> poSet = po.getSaleSet();
+        Set<GoodsSalePO> poSet1 = new HashSet<>();
+        for(GoodsSalePO goodsSalePO : poSet){
+            GoodsSalePO po2 = goodsSalePO;
+            po2.setSaleNumber( -1 * goodsSalePO.getSaleNumber());
+            poSet1.add(po2);
+        }
+        po1.setSaleSet(poSet1);
+        return po1;
+    }
+
+    @Override
+    public ArrayList<SalePO> getSale(String startTime, String endTime, String userName, String memberName) {
+        ArrayList<SalePO> list = (ArrayList<SalePO>)HQLTools.find("from Sale");
+        int size = list.size();
+        if(size == 0)
+            return null;
+        ArrayList<SalePO> resultList = new ArrayList<>();
+        for(int i = 0; i < list.size(); i++){
+            if(dateHelper.isInRange(startTime, endTime, list.get(i).getDate())){
+                if(list.get(i).getSalesman().equals(userName) && list.get(i).getRetailer().equals(memberName))
+                    resultList.add(list.get(i));
+            }
+        }
+        return list;
+    }
+
+    @Override
+    public ArrayList<SalePO> getFail() {
+        String operation = "from Sale where state = fail";
+        ArrayList<SalePO> list = (ArrayList<SalePO>)HQLTools.find(operation);
+        return list;
     }
 }

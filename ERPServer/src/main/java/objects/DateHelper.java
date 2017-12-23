@@ -20,5 +20,8 @@ public class DateHelper {
       return date1.equals(date2);
    }
 
+   public boolean isInRange(String startTime, String endTime, String date){
+      return ((date.compareTo(startTime) > 0) && date.compareTo(endTime) < 0);
+   }
 
 }

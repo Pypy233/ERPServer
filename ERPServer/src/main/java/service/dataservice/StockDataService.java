@@ -42,4 +42,35 @@ public interface StockDataService {
      * @param po
      */
     public void passCheck(StockPO po);
+
+    /**
+     * 未通过审批
+     * @param po
+     */
+    public void failCheck(StockPO po);
+
+    /**
+     * 查找得到进货单
+     * @param startTime
+     * @param endTime
+     * @param userName
+     * @param memberName
+     * @return
+     */
+    public ArrayList<StockPO> getStock(String startTime, String endTime, String userName, String memberName);
+
+    /**
+     * 得到未通过进货单
+     * @return
+     */
+    public ArrayList<StockPO> getFail();
+
+
+    /**
+     * 生成红冲
+     * @param po
+     * @return
+     */
+    public StockPO addRed(StockPO po);
+
 }

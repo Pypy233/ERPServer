@@ -1,5 +1,6 @@
 package service.datafactory;
 
+import service.blservice.Impl.GoodsLackDataServiceImpl;
 import service.dataservice.*;
 import service.dataservice.Impl.*;
 
@@ -82,5 +83,41 @@ public class DataFactoryImpl implements DataFactory{
     public StockReturnDataService getStockReturnDataService() {
         StockReturnDataService stockReturnData = new StockReturnDataServiceImpl();
         return stockReturnData;
+    }
+
+    @Override
+    public GoodsLackDataService getGoodsLackDataService() {
+        GoodsLackDataService goodsLackData = new GoodsLackDataServiceImpl();
+        return goodsLackData;
+    }
+
+    @Override
+    public LackListDataService getLackListDataService() {
+        LackListDataService lackListData = new LackListDataServiceImpl();
+        return lackListData;
+    }
+
+    @Override
+    public GoodsOverflowDataService getGoodsOverflowDataService() {
+        GoodsOverflowDataService goodsOverflowData = new GoodsOverflowDataServiceImpl();
+        return goodsOverflowData;
+    }
+
+    @Override
+    public OverflowListDataService getOverflowListDataService() {
+        OverflowListDataService overflowListData = new OverflowListDataServiceImpl();
+        return overflowListData;
+    }
+
+    @Override
+    public PresentDataService getPresentDataService() {
+        PresentDataService presentData = new PresentDataServiceImpl();
+        return presentData;
+    }
+
+    @Override
+    public PresentListDataService getPresentListDataService() {
+        PresentListDataService presentListData = new PresentListDataServiceImpl();
+        return presentListData;
     }
 }

@@ -4,6 +4,8 @@ package service.datafactory;
  * factory 模式，提供各种数据服务
  */
 
+import po.LackListPO;
+import po.OverflowListPO;
 import service.dataservice.*;
 
 public interface DataFactory {
@@ -12,7 +14,6 @@ public interface DataFactory {
 
     public ClassifyDataService getClassifyDataService();
 
-    public CommodityDataService getCommodityDataService();
 
     public GoodsDataService getGoodsDataService();
 
@@ -34,5 +35,16 @@ public interface DataFactory {
 
     public StockReturnDataService getStockReturnDataService();
 
+    public GoodsLackDataService getGoodsLackDataService();
+
+    public LackListDataService getLackListDataService();
+
+    public GoodsOverflowDataService getGoodsOverflowDataService();
+
+    public OverflowListDataService getOverflowListDataService();
+
+    public PresentDataService getPresentDataService();
+
+    public PresentListDataService getPresentListDataService();
 
 }

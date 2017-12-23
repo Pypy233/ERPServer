@@ -70,4 +70,32 @@ public class SaleBLServiceImpl implements SaleBLService {
         dataFactory.getSaleDataService().update(voChangeToPO.salevo_to_salepo(vo));
 
     }
+
+    @Override
+    public SaleVO addSaleRed (SaleVO vo) throws RemoteException{
+        SalePO po = dataFactory.getSaleDataService().addRed(voChangeToPO.salevo_to_salepo(vo));
+        SaleVO vo1 = pOtoVO.salepo_to_salevo(po);
+        return vo1;
+    }
+
+    @Override
+    public ArrayList<SaleVO> getSale(String startTime, String endTime, String userName, String memberName)
+    throws RemoteException{
+        ArrayList<SalePO> list = dataFactory.getSaleDataService().getSale(startTime, endTime, userName, memberName);
+        ArrayList<SaleVO> resultList = new ArrayList<>();
+        for(int i = 0; i < list.size(); i++){
+            resultList.add(pOtoVO.salepo_to_salevo(list.get(i)));
+        }
+        return resultList;
+    }
+
+    @Override
+    public ArrayList<SaleVO> getSalFail() throws RemoteException{
+        ArrayList<SalePO> list = dataFactory.getSaleDataService().getFail();
+        ArrayList<SaleVO> voList = new ArrayList<>();
+        for(int i = 0; i < list.size(); i++){
+            voList.add(pOtoVO.salepo_to_salevo(list.get(i)));
+        }
+        return voList;
+    }
 }

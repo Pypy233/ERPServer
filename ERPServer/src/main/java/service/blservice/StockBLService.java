@@ -68,5 +68,20 @@ public interface StockBLService {
     */
    public void failStockCheck(StockVO vo) throws  RemoteException;
 
+   /**
+    * 查找并得到进货单
+    * @param startTime
+    * @param endTime
+    * @param userName
+    * @param memberName
+    * @return
+    */
+   public ArrayList<StockVO> getStock(String startTime, String endTime, String userName, String memberName) throws RemoteException;
+
+   /**
+    * 得到未通过进货单
+    * @return
+    */
+   public ArrayList<StockVO> getStockFail() throws RemoteException;
 
 }

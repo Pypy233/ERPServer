@@ -170,4 +170,96 @@ public class POtoVO {
        return vo;
    }
 
+   public GoodsLackVO goodsLackPO_to_goodsLackVO(GoodsLackPO po){
+       GoodsLackVO vo = new GoodsLackVO();
+       vo.setId(po.getId());
+       vo.setTrueNumber(po.getTrueNumber());
+       vo.setVo(goodspo_to_goodsvo(po.getPo()));
+       return vo;
+   }
+
+   public LackListVO lackListPO_to_lackListVO(LackListPO po) {
+       LackListVO vo = new LackListVO();
+       vo.setDate(po.getDate());
+       vo.setId(po.getId());
+       vo.setOperator(po.getOperator());
+
+       Set<GoodsLackPO> goodsLackPOSet = po.getSet();
+       Set<GoodsLackVO> goodsLackVOSet = new HashSet<>();
+
+       for (GoodsLackPO goodsLackPO : goodsLackPOSet) {
+           goodsLackVOSet.add(goodsLackPO_to_goodsLackVO(goodsLackPO));
+       }
+       vo.setSet(goodsLackVOSet);
+       return vo;
+   }
+
+   public GoodsOverflowVO goodsOverflowVO_to_goodsOverflowPO(GoodsOverflowPO po){
+       GoodsOverflowVO vo = new GoodsOverflowVO();
+       vo.setId(po.getId());
+       vo.setTrueNumber(po.getTrueNumber());
+       vo.setVo(goodspo_to_goodsvo(po.getPo()));
+       return vo;
+   }
+
+   public OverflowListVO overflowListVO_to_overflowListPO(OverflowListPO po){
+       OverflowListVO vo = new OverflowListVO();
+       vo.setId(po.getId());
+       vo.setDate(po.getDate());
+       vo.setOperator(po.getOperator());
+
+       Set<GoodsOverflowPO> goodsOverflowPOSet = po.getSet();
+       Set<GoodsOverflowVO> goodsOverflowVOSet = new HashSet<>();
+
+       for(GoodsOverflowPO goodsOverflowPO : goodsOverflowPOSet){
+           goodsOverflowVOSet.add(goodsOverflowVO_to_goodsOverflowPO(goodsOverflowPO));
+       }
+       vo.setSet(goodsOverflowVOSet);
+
+       return vo;
+   }
+
+    public PresentVO presentPO_to_prensetVO(PresentPO po){
+       PresentVO vo = new PresentVO();
+       vo.setId(po.getId());
+       vo.setNumber(po.getNumber());
+       vo.setVo(goodspo_to_goodsvo(po.getPo()));
+       return vo;
+    }
+
+    public PresentListVO presentListPO_to_presentListVO(PresentListPO po){
+        PresentListVO vo = new PresentListVO();
+        vo.setId(po.getId());
+        vo.setClient(po.getClient());
+        vo.setDate(po.getDate());
+        vo.setOperator(po.getOperator());
+
+        Set<PresentPO> poSet = po.getSet();
+        Set<PresentVO> voSet = new HashSet<>();
+
+        for(PresentPO presentPO : poSet){
+            voSet.add(presentPO_to_prensetVO(presentPO));
+        }
+        vo.setSet(voSet);
+        return vo;
+    }
+
+    public MemberVO memberPO_to_memberVO(MemberPO po){
+        MemberVO vo = new MemberVO();
+        vo.setAddress(po.getAddress());
+        vo.setCollection(po.getCollection());
+        vo.setCollectionLimit(po.getCollectionLimit());
+        vo.setLevel(po.getLevel());
+        vo.setMailAddress(po.getMailAddress());
+        vo.setAddress(po.getAddress());
+        vo.setManagePerson(po.getManagePerson());
+        vo.setMemberClass(po.getMemberClass());
+        vo.setName(po.getName());
+        vo.setNumber(po.getNumber());
+        vo.setPayment(po.getPayment());
+        vo.setPhoneNumber(po.getPhoneNumber());
+        vo.setPostcode(po.getPostcode());
+        return vo;
+    }
+
 }

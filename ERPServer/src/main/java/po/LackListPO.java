@@ -2,14 +2,11 @@ package po;
 
 import org.hibernate.annotations.GenericGenerator;
 
-import javax.persistence.CascadeType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
-
+@Entity(name = "LackList")
 public class LackListPO implements Serializable {
     /**
      * id

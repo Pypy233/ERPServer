@@ -218,5 +218,76 @@ public class VOChangeToPO {
         return po;
     }
 
+    public GoodsLackPO goodsLackvo_to_goodsLackpo(GoodsLackVO vo){
+        GoodsLackPO po = new GoodsLackPO();
+        po.setId(vo.getId());
+        po.setPo(goodsvo_to_goodspo(vo.getVo()));
+        po.setTrueNumber(vo.getTrueNumber());
+        return po;
+    }
+
+    public LackListPO lackListvo_to_lackListpo(LackListVO vo) {
+        LackListPO po = new LackListPO();
+        po.setId(vo.getId());
+        po.setDate(vo.getDate());
+        po.setOperator(vo.getOperator());
+        Set<GoodsLackPO> poSet = new HashSet<>();
+        Set<GoodsLackVO> voSet = vo.getSet();
+        for(GoodsLackVO goodsLackVO: voSet){
+            poSet.add(goodsLackvo_to_goodsLackpo(goodsLackVO));
+        }
+        po.setSet(poSet);
+        return po;
+    }
+
+    public GoodsOverflowPO goodsOverflowvo_to_goodsOverflowpo(GoodsOverflowVO vo){
+        GoodsOverflowPO po = new GoodsOverflowPO();
+        po.setId(vo.getId());
+        po.setPo(goodsvo_to_goodspo(vo.getVo()));
+        po.setTrueNumber(vo.getTrueNumber());
+        return po;
+    }
+
+    public OverflowListPO overflowListvo_to_overflowListpo(OverflowListVO vo){
+        OverflowListPO po = new OverflowListPO();
+        po.setDate(vo.getDate());
+        po.setId(vo.getId());
+        po.setOperator(vo.getOperator());
+
+        Set<GoodsOverflowPO> poSet = new HashSet<>();
+        Set<GoodsOverflowVO> voSet = vo.getSet();
+
+        for(GoodsOverflowVO goodsOverflowVO: voSet){
+            poSet.add(goodsOverflowvo_to_goodsOverflowpo(goodsOverflowVO));
+        }
+        po.setSet(poSet);
+        return po;
+    }
+
+    public PresentPO presentvo_to_presentpo(PresentVO vo){
+        PresentPO po = new PresentPO();
+        po.setId(vo.getId());
+        po.setNumber(vo.getNumber());
+        po.setPo(goodsvo_to_goodspo(vo.getVo()));
+        return po;
+    }
+
+    public PresentListPO presentListvo_to_presentListpo(PresentListVO vo){
+        PresentListPO po = new PresentListPO();
+        po.setId(vo.getId());
+        po.setClient(vo.getClient());
+        po.setDate(vo.getDate());
+        po.setOperator(vo.getOperator());
+        Set<PresentPO> poSet = new HashSet<>();
+        Set<PresentVO> voSet = vo.getSet();
+
+        for(PresentVO presentVO : voSet){
+            poSet.add(presentvo_to_presentpo(presentVO));
+        }
+        po.setSet(poSet);
+
+        return po;
+    }
+
 
 }

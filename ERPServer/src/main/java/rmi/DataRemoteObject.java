@@ -35,6 +35,7 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     private UserBLService userBLService;
 
     protected DataRemoteObject() throws RemoteException{
+        super();
         classifyBLService = new ClassifyBLServiceImpl();
         commodityBLService = new CommodityBLServiceImpl();
 
@@ -191,6 +192,7 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     public ResultMessage addMember(MemberVO vo) throws RemoteException {
         return memberBLService.addMember(vo);
     }
+
 
     @Override
     public ResultMessage deleteMember(MemberVO vo) throws RemoteException {

@@ -35,7 +35,6 @@
         <!-- 映射文件 -->
         <mapping class = "po.GoodsPO" />
         <mapping class = "po.ClassifyPO" />
-        <mapping class = "po.CommodityPO"/>
         <mapping class = "po.MemberPO" />
         <mapping class = "po.SalePO" />
         <mapping class = "po.SaleReturnPO"/>

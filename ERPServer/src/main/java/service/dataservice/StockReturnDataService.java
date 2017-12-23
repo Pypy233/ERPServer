@@ -2,6 +2,7 @@ package service.dataservice;
 
 import objects.ResultMessage;
 import po.StockReturnPO;
+import service.blservice.StockReturnBLService;
 
 import java.util.ArrayList;
 
@@ -38,4 +39,33 @@ public interface StockReturnDataService {
      * @param po
      */
     public void passCheck(StockReturnPO po);
+
+    /**
+     * 单据审批未通过
+     * @param po
+     */
+    public void failCheck(StockReturnPO po);
+
+    /**
+     * 查找得到进货退货单
+     * @param startTime
+     * @param endTime
+     * @param userName
+     * @param memberName
+     * @return
+     */
+    public ArrayList<StockReturnPO> getStockReturn(String startTime, String endTime, String userName, String memberName);
+
+    /**
+     * 得到未通过进货退货单
+     * @return
+     */
+    public ArrayList<StockReturnPO> getFail();
+
+    /**
+     * 生成红冲
+     * @param po
+     * @return
+     */
+    public StockReturnPO addRed(StockReturnPO po);
 }

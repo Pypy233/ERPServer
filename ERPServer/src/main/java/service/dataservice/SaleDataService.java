@@ -43,4 +43,35 @@ public interface SaleDataService {
      */
     public void passCheck(SalePO po);
 
+    /**
+     * 审批失败
+     * @param po
+     */
+    public void failCheck(SalePO po);
+
+    /**
+     * 生成红冲
+     * @param po
+     * @return
+     */
+    public SalePO addRed(SalePO po);
+
+    /**
+     * 查找得到销售单
+     * @param startTime
+     * @param endTime
+     * @param userName
+     * @param memberName
+     * @return
+     */
+    public ArrayList<SalePO> getSale(String startTime, String endTime, String userName, String memberName);
+
+    /**
+     * 得到维通过销售单
+     * @return
+     */
+    public ArrayList<SalePO> getFail();
+
+
+
 }

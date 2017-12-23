@@ -24,7 +24,7 @@ public class StockBLServiceImpl implements StockBLService {
 
     @Override
     public ResultMessage addStock(StockVO vo) throws RemoteException {
-        if(vo == null)
+        if (vo == null)
             return ResultMessage.Fail;
         StockPO po = voChangeToPO.stockvo_to_stockpo(vo);
         dataFactory.getStockDataService().add(po);
@@ -41,7 +41,7 @@ public class StockBLServiceImpl implements StockBLService {
 
     @Override
     public ResultMessage deleteStock(StockVO vo) throws RemoteException {
-        if(vo == null)
+        if (vo == null)
             return ResultMessage.Fail;
         StockPO po = voChangeToPO.stockvo_to_stockpo(vo);
         dataFactory.getStockDataService().delete(po);
@@ -50,7 +50,7 @@ public class StockBLServiceImpl implements StockBLService {
 
     @Override
     public ResultMessage updateStock(StockVO vo) throws RemoteException {
-        if(vo == null)
+        if (vo == null)
             return ResultMessage.Fail;
         StockPO po = voChangeToPO.stockvo_to_stockpo(vo);
         dataFactory.getStockDataService().update(po);
@@ -61,7 +61,7 @@ public class StockBLServiceImpl implements StockBLService {
     public ArrayList<StockVO> getStockProcessList() throws RemoteException {
         ArrayList<StockPO> poList = dataFactory.getStockDataService().getProcessList();
         ArrayList<StockVO> list = new ArrayList<>();
-        for(int  i = 0; i < poList.size(); i++){
+        for (int i = 0; i < poList.size(); i++) {
             list.add(pOtoVO.stockpo_to_stockvo(poList.get(i)));
         }
         return list;
@@ -74,7 +74,29 @@ public class StockBLServiceImpl implements StockBLService {
 
     @Override
     public void failStockCheck(StockVO vo) throws RemoteException {
-        vo.setState("Fail");
-        HQLTools.update(voChangeToPO.stockvo_to_stockpo(vo));
+        vo.setState("fail");
+        dataFactory.getStockDataService().update(voChangeToPO.stockvo_to_stockpo(vo));
     }
+
+    @Override
+    public ArrayList<StockVO> getStock(String startTime, String endTime, String userName, String memberName)
+    throws RemoteException{
+        ArrayList<StockPO> list = dataFactory.getStockDataService().getStock(startTime, endTime, userName, memberName);
+        ArrayList<StockVO> resultList = new ArrayList<>();
+        for(int i = 0; i < list.size(); i++){
+            resultList.add(pOtoVO.stockpo_to_stockvo(list.get(i)));
+        }
+        return resultList;
+    }
+
+    @Override
+    public ArrayList<StockVO> getStockFail() throws RemoteException{
+        ArrayList<StockPO> list = dataFactory.getStockDataService().getFail();
+        ArrayList<StockVO> voList = new ArrayList<>();
+        for(int i = 0; i < list.size(); i++){
+            voList.add(pOtoVO.stockpo_to_stockvo(list.get(i)));
+        }
+        return voList;
+    }
+
 }

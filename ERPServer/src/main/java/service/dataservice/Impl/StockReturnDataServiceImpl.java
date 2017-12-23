@@ -1,5 +1,6 @@
 package service.dataservice.Impl;
 
+import objects.DateHelper;
 import objects.HQLTools;
 import objects.ResultMessage;
 import po.*;
@@ -8,6 +9,7 @@ import service.datafactory.DataFactoryImpl;
 import service.dataservice.StockReturnDataService;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -15,6 +17,7 @@ import java.util.Set;
  */
 public class StockReturnDataServiceImpl implements StockReturnDataService {
     DataFactory dataFactory = new DataFactoryImpl();
+    DateHelper dateHelper = new DateHelper();
 
     @Override
     public ResultMessage add(StockReturnPO po) {
@@ -61,5 +64,48 @@ public class StockReturnDataServiceImpl implements StockReturnDataService {
             goodsPO.setCommodityNum(goodsPO.getCommodityNum() - goodsStockReturnPO.getStockReturnNumber());
             HQLTools.update(goodsPO);
         }
+    }
+
+    @Override
+    public void failCheck(StockReturnPO po) {
+        po.setState("fail");
+        HQLTools.update(po);
+    }
+
+    @Override
+    public ArrayList<StockReturnPO> getStockReturn(String startTime, String endTime, String userName, String memberName) {
+        ArrayList<StockReturnPO> list = (ArrayList<StockReturnPO>)HQLTools.find("from StockReturn");
+        int size = list.size();
+        if(size == 0)
+            return null;
+        ArrayList<StockReturnPO> resultList = new ArrayList<>();
+        for(int i = 0; i < list.size(); i++){
+            if(dateHelper.isInRange(startTime, endTime, list.get(i).getDate())){
+                if(list.get(i).getOperator().equals(userName) && list.get(i).getProvider().equals(memberName))
+                    resultList.add(list.get(i));
+            }
+        }
+        return resultList;
+    }
+
+    @Override
+    public ArrayList<StockReturnPO> getFail() {
+        String operation = "from StockReturn where state = fail";
+        ArrayList<StockReturnPO> list = (ArrayList<StockReturnPO>)HQLTools.find(operation);
+        return list;
+    }
+
+    @Override
+    public StockReturnPO addRed(StockReturnPO po) {
+        StockReturnPO po1 = po;
+        Set<GoodsStockReturnPO> poSet = po.getStockSet();
+        Set<GoodsStockReturnPO> poSet1 = new HashSet<>();
+        for(GoodsStockReturnPO goodsSalePO : poSet){
+            GoodsStockReturnPO po2 = goodsSalePO;
+            po2.setStockReturnNumber( -1 * goodsSalePO.getStockReturnNumber());
+            poSet1.add(po2);
+        }
+        po1.setStockSet(poSet1);
+        return po1;
     }
 }

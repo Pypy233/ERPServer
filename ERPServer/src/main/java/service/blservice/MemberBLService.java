@@ -31,5 +31,12 @@ public interface MemberBLService {
      */
     public ResultMessage updateMember(MemberVO vo) throws RemoteException;
 
+    /**
+     * 根据id查找员工
+     * @param number
+     * @return
+     */
+    public MemberVO findMember(int number);
+
 
 }

@@ -63,8 +63,28 @@ public interface SaleBLService {
      */
     public void failSaleCheck(SaleVO vo) throws  RemoteException;
 
+    /**
+     * 生成红冲
+     * @param vo
+     * @return
+     */
+    public SaleVO addSaleRed(SaleVO vo) throws RemoteException;
 
+    /**
+     * 查找并得到销售单
+     * @param startTime
+     * @param endTime
+     * @param userName
+     * @param memberName
+     * @return
+     */
+    public ArrayList<SaleVO> getSale(String startTime, String endTime, String userName, String memberName) throws RemoteException;
 
+    /**
+     * 得到未通过销售单
+     * @return
+     */
+    public ArrayList<SaleVO> getSalFail() throws RemoteException;
 
 
 }

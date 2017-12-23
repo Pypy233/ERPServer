@@ -70,4 +70,27 @@ public class StockReturnBLServiceImpl implements StockReturnBLService {
         HQLTools.update(voChangeToPO.stockReturnvo_to_stockReturnpo(vo));
     }
 
+    @Override
+    public ArrayList<StockReturnVO> getStockReturn(String startTime, String endTime, String userName,
+                                                   String memberName) throws RemoteException {
+        ArrayList<StockReturnPO> list = dataFactory.getStockReturnDataService().
+                getStockReturn(startTime, endTime, userName, memberName);
+        ArrayList<StockReturnVO> resultList = new ArrayList<>();
+        for(int i = 0; i < list.size(); i++){
+            resultList.add(pOtoVO.stockReturnPO_to_stockReturnVO(list.get(i)));
+        }
+        return resultList;
+
+    }
+
+    @Override
+    public ArrayList<StockReturnVO> getStockReturnFail() throws RemoteException {
+        ArrayList<StockReturnPO> list = dataFactory.getStockReturnDataService().getFail();
+        ArrayList<StockReturnVO> voList = new ArrayList<>();
+        for(int i = 0; i < list.size(); i++){
+            voList.add(pOtoVO.stockReturnPO_to_stockReturnVO(list.get(i)));
+        }
+        return voList;
+    }
+
 }

@@ -38,4 +38,11 @@ public interface MemberDataService {
      * @return
      */
     public ArrayList<MemberPO> find(String number, String name, String memberClass);
+
+    /**
+     * 通过id查找客户
+     * @param number
+     * @return
+     */
+    public MemberPO find(int number);
 }

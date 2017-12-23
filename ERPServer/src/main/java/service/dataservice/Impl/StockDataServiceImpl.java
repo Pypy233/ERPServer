@@ -1,5 +1,6 @@
 package service.dataservice.Impl;
 
+import objects.DateHelper;
 import objects.HQLTools;
 import objects.ResultMessage;
 import po.GoodsPO;
@@ -11,10 +12,12 @@ import service.datafactory.DataFactoryImpl;
 import service.dataservice.StockDataService;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Set;
 
 public class StockDataServiceImpl implements StockDataService {
     DataFactory dataFactory = new DataFactoryImpl();
+    DateHelper dateHelper = new DateHelper();
 
     @Override
     public ResultMessage add(StockPO po) {
@@ -62,5 +65,48 @@ public class StockDataServiceImpl implements StockDataService {
             HQLTools.update(goodsPO);
         }
 
+    }
+
+    @Override
+    public void failCheck(StockPO po) {
+        po.setState("fail");
+        HQLTools.update(po);
+    }
+
+    @Override
+    public ArrayList<StockPO> getStock(String startTime, String endTime, String userName, String memberName) {
+        ArrayList<StockPO> list = (ArrayList<StockPO>)HQLTools.find("from Stock");
+        int size = list.size();
+        if(size == 0)
+            return null;
+        ArrayList<StockPO> resultList = new ArrayList<>();
+        for(int i = 0; i < list.size(); i++){
+            if(dateHelper.isInRange(startTime, endTime, list.get(i).getDate())){
+                if(list.get(i).getOperator().equals(userName) && list.get(i).getProvider().equals(memberName))
+                    resultList.add(list.get(i));
+            }
+        }
+        return resultList;
+    }
+
+    @Override
+    public ArrayList<StockPO> getFail() {
+        String operation = "from Stock where state = fail";
+        ArrayList<StockPO> list = (ArrayList<StockPO>)HQLTools.find(operation);
+        return list;
+    }
+
+    @Override
+    public StockPO addRed(StockPO po) {
+        StockPO po1 = po;
+        Set<GoodsStockPO> poSet = po.getStockSet();
+        Set<GoodsStockPO> poSet1 = new HashSet<>();
+        for(GoodsStockPO goodsSalePO : poSet){
+            GoodsStockPO po2 = goodsSalePO;
+            po2.setStockNumber( -1 * goodsSalePO.getStockNumber());
+            poSet1.add(po2);
+        }
+        po1.setStockSet(poSet1);
+        return po1;
     }
 }

@@ -60,13 +60,32 @@ public class SaleReturnBLServiceImpl implements SaleReturnBLService {
     }
 
     @Override
-    public void passSaleReturnCheck(SaleReturnVO vo) throws RemoteException {
-        dataFactory.getSaleReturnDataService().passCheck(voChangeToPO.saleReturnvo_to_saleReturnpo(vo));
+    public void failSaleReturnCheck(SaleReturnVO vo) throws RemoteException {
+        vo.setState("fail");
+        SaleReturnPO po = voChangeToPO.saleReturnvo_to_saleReturnpo(vo);
+        dataFactory.getSaleReturnDataService().failCheck(po);
     }
 
     @Override
-    public void failSaleReturnCheck(SaleReturnVO vo) throws RemoteException {
-        vo.setState("Fail");
-        dataFactory.getSaleReturnDataService().update(voChangeToPO.saleReturnvo_to_saleReturnpo(vo));
+    public ArrayList<SaleReturnVO> getSaleReturn(String startTime, String endTime, String userName, String memberName)
+    throws RemoteException{
+        ArrayList<SaleReturnPO> list = dataFactory.getSaleReturnDataService().getSaleReturn(startTime, endTime, userName, memberName);
+        ArrayList<SaleReturnVO> resultList = new ArrayList<>();
+        for(int i = 0; i < list.size(); i++){
+            resultList.add(pOtoVO.saleReturnPO_to_saleReturnVO(list.get(i)));
+        }
+        return resultList;
     }
+
+    @Override
+    public ArrayList<SaleReturnVO> getSaleReturnFail() throws RemoteException{
+        ArrayList<SaleReturnPO> list = dataFactory.getSaleReturnDataService().getFail();
+        ArrayList<SaleReturnVO> voList = new ArrayList<>();
+        for(int i = 0; i < list.size(); i++){
+            voList.add(pOtoVO.saleReturnPO_to_saleReturnVO(list.get(i)));
+        }
+        return voList;
+    }
+
+
 }

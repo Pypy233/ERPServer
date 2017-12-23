@@ -41,4 +41,34 @@ public interface SaleReturnDataService {
      * @param po
      */
     public void passCheck(SaleReturnPO po);
+
+    /**
+     * 单据未通过审批
+     * @param po
+     */
+    public void failCheck(SaleReturnPO po);
+
+    /**
+     * 查找得到销售退货单
+     * @param startTime
+     * @param endTime
+     * @param userName
+     * @param memberName
+     * @return
+     */
+    public ArrayList<SaleReturnPO> getSaleReturn(String startTime, String endTime, String userName, String memberName);
+
+    /**
+     * 得到维通过销售退货单
+     * @return
+     */
+    public ArrayList<SaleReturnPO> getFail();
+
+
+    /**
+     * 生成红冲
+     * @param po
+     * @return
+     */
+    public SaleReturnPO addRed(SaleReturnPO po);
 }
