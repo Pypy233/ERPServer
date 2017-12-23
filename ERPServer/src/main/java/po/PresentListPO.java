@@ -34,6 +34,11 @@ public class PresentListPO implements Serializable{
      */
     String client;
 
+    /**
+     * 状态
+     */
+    String state;
+
     public PresentListPO() {
     }
 
@@ -44,6 +49,16 @@ public class PresentListPO implements Serializable{
         this.operator = operator;
         this.client = client;
     }
+
+    public PresentListPO(int id, String date, Set<PresentPO> set, String operator, String client, String state) {
+        this.id = id;
+        this.date = date;
+        this.set = set;
+        this.operator = operator;
+        this.client = client;
+        this.state = state;
+    }
+
     @Id
     @GeneratedValue(generator="increment")
     @GenericGenerator(name = "increment", strategy = "increment")
@@ -63,11 +78,11 @@ public class PresentListPO implements Serializable{
         this.date = date;
     }
 
+    @OneToMany(cascade = CascadeType.ALL)
     public Set<PresentPO> getSet() {
         return set;
     }
 
-    @OneToMany(cascade = CascadeType.ALL)
     public void setSet(Set<PresentPO> set) {
         this.set = set;
     }
@@ -86,5 +101,13 @@ public class PresentListPO implements Serializable{
 
     public void setClient(String client) {
         this.client = client;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
     }
 }

@@ -1,6 +1,7 @@
 package service.blservice;
 
 import objects.ResultMessage;
+import po.SaleReturnPO;
 import vo.GoodsSaleReturnVO;
 import vo.SaleReturnVO;
 
@@ -44,6 +45,14 @@ public interface SaleReturnBLService {
      * @return
      */
     public ArrayList<SaleReturnVO> getSaleReturnProcessList() throws RemoteException;
+
+
+    /**
+     * 通过审批
+     * @param vo
+     * @throws RemoteException
+     */
+    public void passSaleReturnCheck(SaleReturnVO vo) throws RemoteException;
 
     /**
      * 没通过审批

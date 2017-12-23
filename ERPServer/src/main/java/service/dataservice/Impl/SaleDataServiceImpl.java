@@ -22,6 +22,7 @@ DateHelper dateHelper = new DateHelper();
     public ResultMessage add(SalePO po) {
         if(po == null)
             return ResultMessage.Fail;
+        po.setState("process");
         HQLTools.add(po);
         return ResultMessage.Success;
     }

@@ -23,6 +23,7 @@ public class SaleReturnDataServiceImpl implements SaleReturnDataService{
     public ResultMessage add(SaleReturnPO po) {
         if(po == null)
             return ResultMessage.Fail;
+        po.setState("process");
         HQLTools.add(po);
         return ResultMessage.Success;
     }

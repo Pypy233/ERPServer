@@ -65,22 +65,6 @@ public class VOChangeToPO {
         return po;
     }
 
-    public CommodityPO commodityvo_to_commoditypo(CommodityVO vo){
-        CommodityPO po = new CommodityPO();
-        po.setId(vo.getId());
-        po.setDate(vo.getDate());
-        po.setDeliveryAmount(vo.getDeliveryAmount());
-        po.setDeliveryMoney(vo.getDeliveryMoney());
-        po.setPresetTime(vo.getPresetTime());
-        po.setSaleAmount(vo.getSaleAmount());
-        po.setSaleMoney(vo.getSaleMoney());
-        po.setStockAmount(vo.getStockAmount());
-        po.setStockMoney(vo.getStockMoney());
-        po.setStorageAmount(vo.getStorageAmount());
-        po.setStorageMoney(vo.getStorageMoney());
-        po.setPresetTime(vo.getPresetTime());
-        return po;
-    }
 
 
     public GoodsStockPO goodsStockvo_to_goodsStockpo(GoodsStockVO vo){

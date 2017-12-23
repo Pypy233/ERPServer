@@ -60,6 +60,11 @@ public class SaleReturnBLServiceImpl implements SaleReturnBLService {
     }
 
     @Override
+    public void passSaleReturnCheck(SaleReturnVO vo) throws RemoteException {
+        dataFactory.getSaleReturnDataService().passCheck(voChangeToPO.saleReturnvo_to_saleReturnpo(vo));
+    }
+
+    @Override
     public void failSaleReturnCheck(SaleReturnVO vo) throws RemoteException {
         vo.setState("fail");
         SaleReturnPO po = voChangeToPO.saleReturnvo_to_saleReturnpo(vo);

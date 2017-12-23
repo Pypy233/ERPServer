@@ -1,4 +1,4 @@
-package service.blservice.Impl;
+package service.dataservice.Impl;
 
 import objects.HQLTools;
 import objects.ResultMessage;

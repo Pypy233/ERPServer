@@ -1,6 +1,6 @@
 package service.datafactory;
 
-import service.blservice.Impl.GoodsLackDataServiceImpl;
+import service.dataservice.Impl.GoodsLackDataServiceImpl;
 import service.dataservice.*;
 import service.dataservice.Impl.*;
 

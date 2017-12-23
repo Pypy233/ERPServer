@@ -31,6 +31,7 @@ public class StockReturnDataServiceImpl implements StockReturnDataService {
     public ResultMessage delete(StockReturnPO po) {
         if(po == null)
             return ResultMessage.Fail;
+        po.setState("process");
         HQLTools.delete(po);
         return ResultMessage.Success;
     }

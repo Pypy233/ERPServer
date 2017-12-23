@@ -23,6 +23,7 @@ public class StockDataServiceImpl implements StockDataService {
     public ResultMessage add(StockPO po) {
         if(po == null)
             return ResultMessage.Fail;
+        po.setState("process");
         HQLTools.add(po);
         return ResultMessage.Success;
     }

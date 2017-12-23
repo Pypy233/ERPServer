@@ -34,6 +34,12 @@
 
         <!-- 映射文件 -->
         <mapping class = "po.GoodsPO" />
+        <mapping class = "po.GoodsOverflowPO"/>
+        <mapping class = "po.GoodsLackPO"/>
+        <mapping class = "po.PresentPO"/>
+        <mapping class = "po.OverflowListPO"/>
+        <mapping class = "po.LackListPO"/>
+        <mapping class = "po.PresentListPO"/>
         <mapping class = "po.ClassifyPO" />
         <mapping class = "po.MemberPO" />
         <mapping class = "po.SalePO" />
