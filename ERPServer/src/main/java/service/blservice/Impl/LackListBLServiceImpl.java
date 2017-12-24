@@ -10,6 +10,7 @@ import service.datafactory.DataFactoryImpl;
 import vo.LackListVO;
 import vo.UserVO;
 
+import java.rmi.RemoteException;
 import java.util.ArrayList;
 
 public class LackListBLServiceImpl implements LackListBLService {
@@ -18,28 +19,28 @@ public class LackListBLServiceImpl implements LackListBLService {
     POtoVO pOtoVO = new POtoVO();
 
     @Override
-    public ResultMessage addLackList(LackListVO vo) {
+    public ResultMessage addLackList(LackListVO vo)throws RemoteException {
         LackListPO po = voChangeToPO.lackListvo_to_lackListpo(vo);
         ResultMessage  msg = dataFactory.getLackListDataService().add(po);
         return msg;
     }
 
     @Override
-    public ResultMessage deleteLackList(LackListVO vo) {
+    public ResultMessage deleteLackList(LackListVO vo)throws RemoteException {
         LackListPO po = voChangeToPO.lackListvo_to_lackListpo(vo);
         ResultMessage msg = dataFactory.getLackListDataService().delete(po);
         return msg;
     }
 
     @Override
-    public ResultMessage update(LackListVO vo) {
+    public ResultMessage update(LackListVO vo) throws RemoteException{
         LackListPO po = voChangeToPO.lackListvo_to_lackListpo(vo);
         ResultMessage msg = dataFactory.getLackListDataService().update(po);
         return msg;
     }
 
     @Override
-    public ArrayList<LackListVO> getLackList(String startTime, String endTime, String userName) {
+    public ArrayList<LackListVO> getLackList(String startTime, String endTime, String userName)throws RemoteException {
         ArrayList<LackListPO> list = dataFactory.getLackListDataService().getLackList(startTime,
                 endTime, userName);
         ArrayList<LackListVO> list1 = new ArrayList<>();
@@ -50,7 +51,7 @@ public class LackListBLServiceImpl implements LackListBLService {
     }
 
     @Override
-    public LackListVO addLackListRed(LackListVO vo) {
+    public LackListVO addLackListRed(LackListVO vo)throws RemoteException {
         LackListPO po = voChangeToPO.lackListvo_to_lackListpo(vo);
         LackListPO redPo =  dataFactory.getLackListDataService().addRed(voChangeToPO.lackListvo_to_lackListpo(vo));
         LackListVO vo1 = pOtoVO.lackListPO_to_lackListVO(redPo);

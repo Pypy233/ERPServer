@@ -12,6 +12,7 @@ import service.datafactory.DataFactoryImpl;
 import vo.PresentListVO;
 
 
+import java.rmi.RemoteException;
 import java.util.ArrayList;
 
 public class PresentListBLServiceImpl implements PresentListBLService{
@@ -20,28 +21,28 @@ public class PresentListBLServiceImpl implements PresentListBLService{
     POtoVO pOtoVO = new POtoVO();
 
     @Override
-    public ResultMessage addPresentList(PresentListVO vo) {
+    public ResultMessage addPresentList(PresentListVO vo)throws RemoteException {
         PresentListPO po = voChangeToPO.presentListvo_to_presentListpo(vo);
         ResultMessage msg = dataFactory.getPresentListDataService().add(po);
         return msg;
     }
 
     @Override
-    public ResultMessage deletePresentList(PresentListVO vo) {
+    public ResultMessage deletePresentList(PresentListVO vo) throws RemoteException{
         PresentListPO po = voChangeToPO.presentListvo_to_presentListpo(vo);
         ResultMessage msg = dataFactory.getPresentListDataService().delete(po);
         return msg;
     }
 
     @Override
-    public ResultMessage update(PresentListVO vo) {
+    public ResultMessage update(PresentListVO vo)throws RemoteException {
         PresentListPO po = voChangeToPO.presentListvo_to_presentListpo(vo);
         ResultMessage msg = dataFactory.getPresentListDataService().update(po);
         return msg;
     }
 
     @Override
-    public ArrayList<PresentListVO> getOverflowList(String startTime, String endTime, String userName, String memberName) {
+    public ArrayList<PresentListVO> getOverflowList(String startTime, String endTime, String userName, String memberName)throws RemoteException {
         ArrayList<PresentListPO> list = dataFactory.getPresentListDataService().getPresentList(startTime, endTime
                 , userName, memberName);
         ArrayList<PresentListVO> resultList = new ArrayList<>();
@@ -52,7 +53,7 @@ public class PresentListBLServiceImpl implements PresentListBLService{
     }
 
     @Override
-    public PresentListVO addPresentListRed(PresentListVO vo) {
+    public PresentListVO addPresentListRed(PresentListVO vo)throws RemoteException {
         PresentListPO po = voChangeToPO.presentListvo_to_presentListpo(vo);
         PresentListPO redPo = dataFactory.getPresentListDataService().addRed(po);
         PresentListVO vo1 = pOtoVO.presentListPO_to_presentListVO(redPo);

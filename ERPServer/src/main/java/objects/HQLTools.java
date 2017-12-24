@@ -17,10 +17,10 @@ public class HQLTools {
     /**
      * 配置对象
      */
-    private static Configuration configuration = new Configuration()
-            .addInputStream(HQLTools.class.getResourceAsStream("/hibernate.cfg.xml")).configure();
 
-    // = new Configuration().configure(new File("hibernate.cfg.xml"));//for test? or just check the database
+    private static Configuration configuration = new Configuration()
+            .addInputStream(HQLTools.class.getResourceAsStream("hibernate.cfg.xml")).configure();
+
     /**
      * SessionFactory对象
      */

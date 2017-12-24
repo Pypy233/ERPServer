@@ -44,7 +44,7 @@ public class MemberBLServiceImpl implements MemberBLService {
     }
 
     @Override
-    public MemberVO findMember(int number) {
+    public MemberVO findMember(int number)throws RemoteException {
         MemberPO po = dataFactory.getMemberDataService().find(number);
         MemberVO vo  = pOtoVO.memberPO_to_memberVO(po);
         return vo;

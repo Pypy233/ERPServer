@@ -18,11 +18,7 @@ public class DataFactoryImpl implements DataFactory{
         return classify;
     }
 
-    @Override
-    public CommodityDataService getCommodityDataService(){
-        CommodityDataService commodity = new CommodityDataServiceImpl();
-        return commodity;
-    }
+
 
     @Override
     public GoodsDataService getGoodsDataService(){

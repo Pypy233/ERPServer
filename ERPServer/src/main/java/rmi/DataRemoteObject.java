@@ -202,7 +202,7 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
-    public MemberVO findMember(int number) {
+    public MemberVO findMember(int number)throws RemoteException {
         return memberBLService.findMember(number);
     }
 
@@ -383,147 +383,147 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
-    public ResultMessage register(UserVO vo) {
+    public ResultMessage register(UserVO vo)throws RemoteException {
         return userBLService.register(vo);
     }
 
     @Override
-    public ResultMessage check(String name, String password) {
+    public ResultMessage check(String name, String password)throws RemoteException {
         return userBLService.check(name, password);
     }
 
     @Override
-    public ResultMessage updatePassword(String name, String password, String type) {
+    public ResultMessage updatePassword(String name, String password, String type)throws RemoteException {
         return userBLService.updatePassword(name, password, type);
     }
 
     @Override
-    public UserVO getUserVO(String name) {
+    public UserVO getUserVO(String name)throws RemoteException {
         return userBLService.getUserVO(name);
     }
 
     @Override
-    public ResultMessage addGoodsLack(GoodsLackVO vo) {
+    public ResultMessage addGoodsLack(GoodsLackVO vo)throws RemoteException {
         return goodsLackBLService.addGoodsLack(vo);
     }
 
     @Override
-    public ResultMessage deleteGoodsLack(GoodsLackVO vo) {
+    public ResultMessage deleteGoodsLack(GoodsLackVO vo)throws RemoteException {
         return goodsLackBLService.deleteGoodsLack(vo);
     }
 
     @Override
-    public ResultMessage update(GoodsLackVO vo) {
+    public ResultMessage update(GoodsLackVO vo)throws RemoteException {
         return goodsLackBLService.update(vo);
     }
 
     @Override
-    public ResultMessage addLackList(LackListVO vo) {
+    public ResultMessage addLackList(LackListVO vo)throws RemoteException {
         return lackListBLService.addLackList(vo);
     }
 
     @Override
-    public ResultMessage deleteLackList(LackListVO vo) {
+    public ResultMessage deleteLackList(LackListVO vo)throws RemoteException {
         return lackListBLService.deleteLackList(vo);
     }
 
     @Override
-    public ResultMessage update(LackListVO vo) {
+    public ResultMessage update(LackListVO vo)throws RemoteException {
         return lackListBLService.update(vo);
     }
 
     @Override
-    public ArrayList<LackListVO> getLackList(String startTime, String endTime, String userName) {
+    public ArrayList<LackListVO> getLackList(String startTime, String endTime, String userName)throws RemoteException {
         return lackListBLService.getLackList(startTime, endTime, userName);
     }
 
     @Override
-    public LackListVO addLackListRed(LackListVO vo) {
+    public LackListVO addLackListRed(LackListVO vo)throws RemoteException {
         return lackListBLService.addLackListRed(vo);
     }
 
     @Override
-    public ResultMessage addOverflowList(OverflowListVO vo) {
+    public ResultMessage addOverflowList(OverflowListVO vo)throws RemoteException {
         return overflowListBLService.addOverflowList(vo);
     }
 
     @Override
-    public ResultMessage deleteOverlowList(OverflowListVO vo) {
+    public ResultMessage deleteOverlowList(OverflowListVO vo)throws RemoteException {
         return overflowListBLService.deleteOverlowList(vo);
     }
 
     @Override
-    public ResultMessage updateOverflowList(OverflowListVO vo) {
+    public ResultMessage updateOverflowList(OverflowListVO vo)throws RemoteException {
         return overflowListBLService.updateOverflowList(vo);
     }
 
     @Override
-    public ArrayList<OverflowListVO> getOverflowList(String startTime, String endTime, String userName) {
+    public ArrayList<OverflowListVO> getOverflowList(String startTime, String endTime, String userName) throws RemoteException{
         return overflowListBLService.getOverflowList(startTime, endTime, userName);
     }
 
     @Override
-    public OverflowListVO addOverflowListRed(OverflowListVO vo) {
+    public OverflowListVO addOverflowListRed(OverflowListVO vo)throws RemoteException {
         return overflowListBLService.addOverflowListRed(vo);
     }
 
     @Override
-    public ResultMessage addPresent(PresentVO vo) {
+    public ResultMessage addPresent(PresentVO vo)throws RemoteException {
         return presentBLService.addPresent(vo);
     }
 
     @Override
-    public ResultMessage deletePresent(PresentVO vo) {
+    public ResultMessage deletePresent(PresentVO vo)throws RemoteException {
         return presentBLService.deletePresent(vo);
     }
 
     @Override
-    public ResultMessage updatePresent(PresentVO vo) {
+    public ResultMessage updatePresent(PresentVO vo)throws RemoteException {
         return presentBLService.updatePresent(vo);
     }
 
     @Override
-    public ResultMessage addPresentList(PresentListVO vo) {
+    public ResultMessage addPresentList(PresentListVO vo)throws RemoteException {
         return presentListBLService.addPresentList(vo);
     }
 
     @Override
-    public ResultMessage deletePresentList(PresentListVO vo) {
+    public ResultMessage deletePresentList(PresentListVO vo)throws RemoteException {
         return presentListBLService.deletePresentList(vo);
     }
 
     @Override
-    public ResultMessage update(PresentListVO vo) {
+    public ResultMessage update(PresentListVO vo)throws RemoteException {
         return presentListBLService.update(vo);
     }
 
     @Override
-    public ArrayList<PresentListVO> getOverflowList(String startTime, String endTime, String userName, String memberName) {
+    public ArrayList<PresentListVO> getOverflowList(String startTime, String endTime, String userName, String memberName) throws RemoteException{
         return presentListBLService.getOverflowList(startTime, endTime, userName, memberName);
     }
 
     @Override
-    public PresentListVO addPresentListRed(PresentListVO vo) {
+    public PresentListVO addPresentListRed(PresentListVO vo)throws RemoteException {
         return presentListBLService.addPresentListRed(vo);
     }
 
     @Override
-    public ResultMessage addGoodsOverflow(GoodsOverflowVO vo) {
+    public ResultMessage addGoodsOverflow(GoodsOverflowVO vo)throws RemoteException {
         return goodsOverflowBLService.addGoodsOverflow(vo);
     }
 
     @Override
-    public ResultMessage deleteGoodsOverflow(GoodsOverflowVO vo) {
+    public ResultMessage deleteGoodsOverflow(GoodsOverflowVO vo)throws RemoteException {
         return goodsOverflowBLService.deleteGoodsOverflow(vo);
     }
 
     @Override
-    public ResultMessage update(GoodsOverflowVO vo) {
+    public ResultMessage update(GoodsOverflowVO vo)throws RemoteException {
         return goodsOverflowBLService.update(vo);
     }
 
     @Override
-    public ArrayList<GoodsVO> getWarningMessage(int number) {
+    public ArrayList<GoodsVO> getWarningMessage(int number) throws RemoteException{
         return goodsWarningMessageBLService.getWarningMessage(number);
     }
 }

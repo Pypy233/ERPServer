@@ -9,18 +9,20 @@ import service.datafactory.DataFactory;
 import service.datafactory.DataFactoryImpl;
 import vo.UserVO;
 
+import java.rmi.RemoteException;
+
 public class UserBLServiceImpl implements UserBLService {
 DataFactory dataFactory = new DataFactoryImpl();
 VOChangeToPO voChangeToPO = new VOChangeToPO();
 POtoVO pOtoVO = new POtoVO();
     @Override
-    public ResultMessage register(UserVO vo) {
+    public ResultMessage register(UserVO vo) throws RemoteException {
         ResultMessage msg = dataFactory.getUserDataService().add(voChangeToPO.uservo_to_userpo(vo));
         return msg;
     }
 
     @Override
-    public ResultMessage check(String name, String password) {
+    public ResultMessage check(String name, String password) throws RemoteException{
         UserPO po = dataFactory.getUserDataService().find(name);
         if(po.getPassword().equals(password))
             return ResultMessage.Success;
@@ -28,7 +30,7 @@ POtoVO pOtoVO = new POtoVO();
     }
 
     @Override
-    public ResultMessage updatePassword(String name, String password, String type) {
+    public ResultMessage updatePassword(String name, String password, String type) throws RemoteException{
         UserVO vo = new UserVO();
         vo.setName(name);
         vo.setPassword(password);
@@ -39,7 +41,7 @@ POtoVO pOtoVO = new POtoVO();
     }
 
     @Override
-    public UserVO getUserVO(String name) {
+    public UserVO getUserVO(String name) throws RemoteException{
         UserPO po = dataFactory.getUserDataService().find(name);
         UserVO vo = pOtoVO.userpo_to_uservo(po);
         return vo;

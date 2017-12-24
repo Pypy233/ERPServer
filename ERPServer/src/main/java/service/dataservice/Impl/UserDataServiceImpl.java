@@ -8,8 +8,8 @@ import service.dataservice.UserDataService;
 import java.util.ArrayList;
 
 public class UserDataServiceImpl implements UserDataService {
-    String opeartion = "from User";
-    ArrayList<UserPO> resultList = (ArrayList<UserPO>) HQLTools.find(opeartion);
+    String operation = "from User";
+    ArrayList<UserPO> resultList = (ArrayList<UserPO>) HQLTools.find(operation);
 
     @Override
     public ResultMessage add(UserPO po) {
@@ -35,7 +35,7 @@ public class UserDataServiceImpl implements UserDataService {
         if(po == null)
             return ResultMessage.Fail;
         HQLTools.update(po);
-        resultList = (ArrayList<UserPO>) HQLTools.find(opeartion);
+        resultList = (ArrayList<UserPO>) HQLTools.find(operation);
         return ResultMessage.Success;
     }
 

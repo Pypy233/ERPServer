@@ -10,13 +10,14 @@ import service.datafactory.DataFactoryImpl;
 import vo.GoodsVO;
 
 
+import java.rmi.RemoteException;
 import java.util.ArrayList;
 
 public class GoodsWarningMessageBLServiceImpl implements GoodsWarningMessageBLService{
     POtoVO pOtoVO = new POtoVO();
     DataFactory dataFactory = new DataFactoryImpl();
     @Override
-    public ArrayList<GoodsVO> getWarningMessage(int number) {
+    public ArrayList<GoodsVO> getWarningMessage(int number) throws RemoteException {
         ArrayList<GoodsPO> list = (ArrayList<GoodsPO>) HQLTools.find("from Goods");
         ArrayList<GoodsVO> resultList = new ArrayList<>();
         for(int i = 0; i < list.size(); i++){
