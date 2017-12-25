@@ -1,6 +1,7 @@
 package objects;
 
 
+import java.io.File;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -18,9 +19,7 @@ public class HQLTools {
      * 配置对象
      */
 
-    private static Configuration configuration = new Configuration()
-            .addInputStream(HQLTools.class.getResourceAsStream("hibernate.cfg.xml")).configure();
-
+    private static Configuration configuration = new Configuration().configure(new File("hibernate.cfg.xml"));
     /**
      * SessionFactory对象
      */

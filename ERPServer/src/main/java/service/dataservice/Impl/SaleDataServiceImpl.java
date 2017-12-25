@@ -11,6 +11,7 @@ import service.datafactory.DataFactory;
 import service.datafactory.DataFactoryImpl;
 import service.dataservice.SaleDataService;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
@@ -85,6 +86,22 @@ DateHelper dateHelper = new DateHelper();
         }
         po1.setSaleSet(poSet1);
         return po1;
+    }
+
+    @Override
+    public ArrayList<GoodsSalePO> checkSale(String startTime, String endTime, String goodsName,
+                                       String userName, String memberName) {
+        ArrayList<SalePO> list = getSale(startTime, endTime, userName, memberName);
+        ArrayList<GoodsSalePO> resultList = new ArrayList<>();
+        for(int i = 0; i < list.size(); i++){
+            Set<GoodsSalePO> set = list.get(i).getSaleSet();
+            for(GoodsSalePO po : set){
+                if(po.getPo().getName().equals(goodsName))
+                    resultList.add(po);
+            }
+
+        }
+        return resultList;
     }
 
     @Override

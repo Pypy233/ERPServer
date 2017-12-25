@@ -167,6 +167,7 @@ public class POtoVO {
        vo.setPassword(po.getPassword());
        vo.setType(po.getType());
        vo.setName(po.getName());
+       vo.setLogin(po.isLogin());
        return vo;
    }
 

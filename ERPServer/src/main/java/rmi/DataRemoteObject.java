@@ -239,6 +239,11 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
+    public ArrayList<GoodsSaleVO> checkSale(String startTime, String endTime, String goodsName, String userName, String memberName) throws RemoteException {
+        return saleBLService.checkSale(startTime, endTime, goodsName, userName, memberName);
+    }
+
+    @Override
     public SaleVO addSaleRed(SaleVO vo) throws RemoteException {
         return saleBLService.addSaleRed(vo);
     }

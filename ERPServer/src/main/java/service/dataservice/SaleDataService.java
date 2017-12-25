@@ -1,6 +1,7 @@
 package service.dataservice;
 
 import objects.ResultMessage;
+import po.GoodsSalePO;
 import po.SalePO;
 
 import java.util.ArrayList;
@@ -55,6 +56,19 @@ public interface SaleDataService {
      * @return
      */
     public SalePO addRed(SalePO po);
+
+    /**
+     * 查看销售明细
+     * @param startTime
+     * @param endTime
+     * @param goodsName
+     * @param userName
+     * @param memberName
+     * @return
+     */
+    public ArrayList<GoodsSalePO> checkSale(String startTime, String endTime, String goodsName, String userName,
+                                            String memberName);
+
 
     /**
      * 查找得到销售单

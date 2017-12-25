@@ -8,7 +8,7 @@ import java.rmi.RemoteException;
 
 public interface UserBLService extends Remote {
     /**
-     * 登录
+     * 注册
      * @param vo
      * @return
      */

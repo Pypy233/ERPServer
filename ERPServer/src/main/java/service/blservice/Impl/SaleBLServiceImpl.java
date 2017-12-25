@@ -4,6 +4,7 @@ package service.blservice.Impl;
 import objects.AddHelper;
 import objects.POtoVO;
 import objects.ResultMessage;
+import po.GoodsSalePO;
 import po.SalePO;
 import service.VOChangeToPO;
 import service.blservice.SaleBLService;
@@ -12,6 +13,7 @@ import service.datafactory.DataFactoryImpl;
 import vo.GoodsSaleVO;
 import vo.SaleVO;
 
+import java.lang.reflect.Array;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.Set;
@@ -72,11 +74,25 @@ public class SaleBLServiceImpl implements SaleBLService {
     }
 
     @Override
+    public ArrayList<GoodsSaleVO> checkSale(String startTime, String endTime, String goodsName,
+                                       String userName, String memberName) throws RemoteException {
+        ArrayList<GoodsSalePO> list = dataFactory.getSaleDataService().checkSale(startTime, endTime, goodsName,
+                userName, memberName);
+        ArrayList<GoodsSaleVO> resultList = new ArrayList<>();
+        for(int i = 0; i < list.size(); i++){
+            resultList.add(pOtoVO.goodssalepo_to_goodssalevo(list.get(i)));
+        }
+        return resultList;
+    }
+
+    @Override
     public SaleVO addSaleRed (SaleVO vo) throws RemoteException{
         SalePO po = dataFactory.getSaleDataService().addRed(voChangeToPO.salevo_to_salepo(vo));
         SaleVO vo1 = pOtoVO.salepo_to_salevo(po);
         return vo1;
     }
+
+
 
     @Override
     public ArrayList<SaleVO> getSale(String startTime, String endTime, String userName, String memberName)
