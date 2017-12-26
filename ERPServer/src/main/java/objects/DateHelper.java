@@ -21,7 +21,7 @@ public class DateHelper {
    }
 
    public boolean isInRange(String startTime, String endTime, String date){
-      return ((date.compareTo(startTime) > 0) && date.compareTo(endTime) < 0);
+      return ((date.compareTo(startTime) >= 0) && date.compareTo(endTime) <= 0);
    }
 
 }

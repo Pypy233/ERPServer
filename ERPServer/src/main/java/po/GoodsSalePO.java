@@ -42,6 +42,11 @@ public class GoodsSalePO implements Serializable {
      */
     double totalPrice = price * saleNumber;
 
+    /**
+     * 日期
+     */
+    String date;
+
     public GoodsSalePO() {
     }
 
@@ -68,6 +73,16 @@ public class GoodsSalePO implements Serializable {
         this.price = price;
         this.remark = remark;
         this.totalPrice = totalPrice;
+    }
+
+    public GoodsSalePO(int id, GoodsPO po, int saleNumber, double price, String remark, double totalPrice, String date) {
+        this.id = id;
+        this.po = po;
+        this.saleNumber = saleNumber;
+        this.price = price;
+        this.remark = remark;
+        this.totalPrice = totalPrice;
+        this.date = date;
     }
 
     @Id
@@ -120,5 +135,13 @@ public class GoodsSalePO implements Serializable {
 
     public void setTotalPrice(double totalPrice) {
         this.totalPrice = totalPrice;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 }

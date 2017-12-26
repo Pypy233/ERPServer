@@ -1,16 +1,18 @@
 package service.dataservice.Impl;
 
+import objects.DateHelper;
 import objects.HQLTools;
 import objects.ResultMessage;
 import po.GoodsSalePO;
 import service.dataservice.GoodsSaleDataService;
 
 public class GoodsSaleDataServiceImpl implements GoodsSaleDataService {
-
+    DateHelper dateHelper = new DateHelper();
     @Override
     public ResultMessage add(GoodsSalePO po) {
         if(po == null)
             return ResultMessage.Fail;
+        po.setDate(dateHelper.getDate());
         HQLTools.add(po);
         return ResultMessage.Success;
     }
