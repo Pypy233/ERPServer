@@ -67,6 +67,13 @@ public class MemberDataServiceImpl implements MemberDataService{
         return list.get(0);
     }
 
+    @Override
+    public ArrayList<MemberPO> find(String name) {
+        String operation = "from Member where name ='" + name + "'";
+        ArrayList<MemberPO> list = (ArrayList<MemberPO>)HQLTools.find(operation);
+        return list;
+    }
+
     public boolean contains(MemberPO po){
         if(memberList.size() > 0){
             for(int i = 0; i < memberList.size(); i++){

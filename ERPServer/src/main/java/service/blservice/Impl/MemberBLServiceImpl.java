@@ -10,6 +10,7 @@ import service.datafactory.DataFactoryImpl;
 import vo.MemberVO;
 
 import java.rmi.RemoteException;
+import java.util.ArrayList;
 
 public class MemberBLServiceImpl implements MemberBLService {
     VOChangeToPO voChangeToPO = new VOChangeToPO();
@@ -48,5 +49,15 @@ public class MemberBLServiceImpl implements MemberBLService {
         MemberPO po = dataFactory.getMemberDataService().find(number);
         MemberVO vo  = pOtoVO.memberPO_to_memberVO(po);
         return vo;
+    }
+
+    @Override
+    public ArrayList<MemberVO> findMemberByName(String name) throws RemoteException {
+        ArrayList<MemberPO> list = dataFactory.getMemberDataService().find(name);
+        ArrayList<MemberVO> resultList = new ArrayList<>();
+        for(int i = 0; i < list.size();i ++){
+            resultList.add(pOtoVO.memberPO_to_memberVO(list.get(i)));
+        }
+        return null;
     }
 }

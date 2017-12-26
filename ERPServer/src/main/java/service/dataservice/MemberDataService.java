@@ -45,4 +45,11 @@ public interface MemberDataService {
      * @return
      */
     public MemberPO find(int number);
+
+    /**
+     * 根据姓名查找客户
+     * @param name
+     * @return
+     */
+    public ArrayList<MemberPO> find(String name);
 }
