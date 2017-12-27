@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="adff1a3b-1bce-4b72-bdf1-a81064481197" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/dataSources/b3bc41d0-c435-4053-85fc-1d9a1b69e441.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Hibernate_5_2_12_5_2_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_freemarker_freemarker_2_3_16.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_hibernate_hibernate_c3p0_5_2_10_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_10_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_jfree_jcommon_1_0_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_jfree_jfreechart_1_0_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/libraries/Maven__org_json_json_20160810.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/ERPServer.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/lib/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/lib/classmate-1.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/lib/hibernate-core-5.2.12.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/lib/jandex-2.0.3.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/objects/AddHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/objects/DateHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/objects/HQLTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/objects/POtoVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/objects/ResultMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/AdminPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/ClassifyPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/GoodsLackPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/GoodsOverflowPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/GoodsPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/GoodsSalePO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/GoodsSaleReturnPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/GoodsStockPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/GoodsStockReturnPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/LackListPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/MemberPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/OverflowListPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/PresentListPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/PresentPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/SalePO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/SaleReturnPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/StockPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/StockReturnPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/po/UserPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/rmi/DataRemoteObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/rmi/RemoteHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/runner/ServerRunner.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/VOChangeToPO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/ClassifyBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/GoodsBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/GoodsLackBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/GoodsOverflowBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/GoodsSaleBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/GoodsSaleReturnBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/GoodsStockBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/GoodsStockReturnBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/GoodsWarningMessageBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/ClassifyBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/GoodsBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/GoodsLackBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/GoodsOverflowBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/GoodsSaleBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/GoodsSaleReturnBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/GoodsStockBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/GoodsStockReturnBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/GoodsWarningMessageBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/LackListBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/MemberBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/OverflowListBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/PresentBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/PresentListBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/SaleBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/SaleReturnBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/StockBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/StockReturnBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/Impl/UserBLServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/LackListBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/MemberBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/OverflowListBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/PresentBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/PresentListBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/SaleBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/SaleReturnBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/StockBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/StockReturnBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/blservice/UserBLService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/datafactory/DataFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/datafactory/DataFactoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/ClassifyDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/GoodsDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/GoodsLackDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/GoodsOverflowDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/GoodsSaleDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/GoodsSaleReturnDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/GoodsStockDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/GoodsStockReturnDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/ClassifyDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/GoodsDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/GoodsLackDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/GoodsOverflowDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/GoodsSaleDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/GoodsSaleReturnDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/GoodsStockDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/GoodsStockReturnDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/LackListDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/MemberDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/OverflowListDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/PresentDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/PresentListDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/SaleDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/SaleReturnDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/StockDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/StockReturnDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/Impl/UserDataServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/LackListDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/MemberDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/OverflowListDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/PresentDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/PresentListDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/SaleDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/SaleReturnDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/StockDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/StockReturnDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/service/dataservice/UserDataService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/AdminVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/ClassifyVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/GoodsLackVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/GoodsOverflowVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/GoodsSaleReturnVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/GoodsSaleVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/GoodsStockReturnVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/GoodsStockVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/GoodsVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/LackListVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/MemberVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/OverflowListVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/PresentListVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/PresentVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/SaleReturnVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/SaleVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/StockReturnVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/StockVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/main/java/vo/UserVO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/test/java/service/blservice/Impl/UserBLServiceImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/test/java/service/dataservice/Impl/MemberDataServiceImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/test/java/test/datatest/ClassifyDataServiceImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/test/java/test/datatest/DateHelperTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/test/java/test/datatest/GoodsDataServiceImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/test/java/test/datatest/GoodsSaleDataServiceImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/test/java/test/datatest/GoodsSaleReturnDataServiceImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/test/java/test/datatest/GoodsStockDataServiceImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/test/java/test/datatest/GoodsStockReturnDataServiceImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/src/test/java/test/datatest/UserDataServiceImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/objects/AddHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/objects/DateHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/objects/HQLTools.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/objects/POtoVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/objects/ResultMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/AdminPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/ClassifyPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/GoodsLackPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/GoodsOverflowPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/GoodsPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/GoodsSalePO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/GoodsSaleReturnPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/GoodsStockPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/GoodsStockReturnPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/LackListPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/MemberPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/OverflowListPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/PresentListPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/PresentPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/SalePO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/SaleReturnPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/StockPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/StockReturnPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/po/UserPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/rmi/DataRemoteObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/rmi/RemoteHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/runner/ServerRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/VOChangeToPO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/ClassifyBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/GoodsBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/GoodsLackBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/GoodsOverflowBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/GoodsSaleBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/GoodsSaleReturnBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/GoodsStockBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/GoodsStockReturnBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/GoodsWarningMessageBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/ClassifyBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/GoodsBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/GoodsLackBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/GoodsOverflowBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/GoodsSaleBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/GoodsSaleReturnBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/GoodsStockBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/GoodsStockReturnBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/GoodsWarningMessageBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/LackListBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/MemberBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/OverflowListBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/PresentBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/PresentListBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/SaleBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/SaleReturnBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/StockBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/StockReturnBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/Impl/UserBLServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/LackListBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/MemberBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/OverflowListBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/PresentBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/PresentListBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/SaleBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/SaleReturnBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/StockBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/StockReturnBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/blservice/UserBLService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/datafactory/DataFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/datafactory/DataFactoryImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/ClassifyDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/GoodsDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/GoodsLackDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/GoodsOverflowDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/GoodsSaleDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/GoodsSaleReturnDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/GoodsStockDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/GoodsStockReturnDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/ClassifyDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/GoodsDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/GoodsLackDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/GoodsOverflowDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/GoodsSaleDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/GoodsSaleReturnDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/GoodsStockDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/GoodsStockReturnDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/LackListDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/MemberDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/OverflowListDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/PresentDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/PresentListDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/SaleDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/SaleReturnDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/StockDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/StockReturnDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/Impl/UserDataServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/LackListDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/MemberDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/OverflowListDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/PresentDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/PresentListDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/SaleDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/SaleReturnDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/StockDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/StockReturnDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/service/dataservice/UserDataService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/AdminVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/ClassifyVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/GoodsLackVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/GoodsOverflowVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/GoodsSaleReturnVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/GoodsSaleVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/GoodsStockReturnVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/GoodsStockVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/GoodsVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/LackListVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/MemberVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/OverflowListVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/PresentListVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/PresentVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/SaleReturnVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/SaleVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/StockReturnVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/StockVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/classes/vo/UserVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/test-classes/service/blservice/Impl/UserBLServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/test-classes/service/dataservice/Impl/MemberDataServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/test-classes/test/datatest/ClassifyDataServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/test-classes/test/datatest/DateHelperTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/test-classes/test/datatest/GoodsDataServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/test-classes/test/datatest/GoodsSaleDataServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/test-classes/test/datatest/GoodsSaleReturnDataServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/test-classes/test/datatest/GoodsStockDataServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/test-classes/test/datatest/GoodsStockReturnDataServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ERPServer/target/test-classes/test/datatest/UserDataServiceImplTest.class" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="817" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adff1a3b-1bce-4b72-bdf1-a81064481197" name="Default" comment="" />
+      <created>1514370772148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1514370772148</updated>
+      <workItem from="1514370774460" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="817" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
