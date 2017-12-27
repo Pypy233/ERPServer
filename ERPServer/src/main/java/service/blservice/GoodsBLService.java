@@ -41,6 +41,11 @@ public interface GoodsBLService extends Remote{
      */
     public ArrayList<GoodsVO> findGoods(String number, String name, String type) throws RemoteException;
 
+    /**
+     * 得到当天库存商品
+     * @return
+     */
+    public ArrayList<GoodsVO> getCurrentGoods();
 
 
 }

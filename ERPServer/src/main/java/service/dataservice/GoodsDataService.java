@@ -45,4 +45,11 @@ public interface GoodsDataService {
      * @return
      */
     public ArrayList<GoodsPO>find(String number, String name, String type);
+
+    /**
+     * 得到当天库存商品
+     * @return
+     */
+    public ArrayList<GoodsPO> getCurrentGoods();
+
 }

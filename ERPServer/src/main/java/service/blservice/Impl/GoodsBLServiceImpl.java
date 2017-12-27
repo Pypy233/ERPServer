@@ -60,5 +60,15 @@ public class GoodsBLServiceImpl implements GoodsBLService {
         return voList;
     }
 
+    @Override
+    public ArrayList<GoodsVO> getCurrentGoods() {
+        ArrayList<GoodsPO> poList = dataFactory.getGoodsDataService().getCurrentGoods();
+        ArrayList<GoodsVO> voList = new ArrayList<>();
+        for(int i = 0; i < poList.size(); i++){
+            voList.add(potoVO.goodspo_to_goodsvo(poList.get(i)));
+        }
+        return voList;
+    }
+
 
 }

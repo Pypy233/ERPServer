@@ -121,6 +121,11 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
+    public ArrayList<GoodsVO> getCurrentGoods() {
+        return goodsBLService.getCurrentGoods();
+    }
+
+    @Override
     public ResultMessage addGoodsSale(GoodsVO vo, int saleNumber, double price, String remark) throws RemoteException {
         return goodsSaleBLService.addGoodsSale(vo, saleNumber, price, remark);
     }

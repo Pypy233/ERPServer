@@ -3,6 +3,7 @@ package service.dataservice.Impl;
 import objects.HQLTools;
 import objects.ResultMessage;
 import po.GoodsPO;
+import po.GoodsSalePO;
 import service.dataservice.GoodsDataService;
 
 import java.util.ArrayList;
@@ -73,6 +74,17 @@ public class GoodsDataServiceImpl implements GoodsDataService  {
         // Ought to be discussed
         return resultList;
     }
+
+    @Override
+    public ArrayList<GoodsPO> getCurrentGoods() {
+        ArrayList<GoodsPO> list = (ArrayList<GoodsPO>) HQLTools.find("from goods");
+        for(int i = 0; i < list.size(); i++){
+            if(list.get(i).getCommodityNum() == 0)
+                list.remove(i);
+        }
+        return list;
+    }
+
     public boolean contains(GoodsPO po){
         if(goodsList.size() > 0){
             for(int i = 0; i < goodsList.size(); i++){
