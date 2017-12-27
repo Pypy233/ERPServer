@@ -61,7 +61,7 @@ public class GoodsBLServiceImpl implements GoodsBLService {
     }
 
     @Override
-    public ArrayList<GoodsVO> getCurrentGoods() {
+    public ArrayList<GoodsVO> getCurrentGoods() throws RemoteException{
         ArrayList<GoodsPO> poList = dataFactory.getGoodsDataService().getCurrentGoods();
         ArrayList<GoodsVO> voList = new ArrayList<>();
         for(int i = 0; i < poList.size(); i++){

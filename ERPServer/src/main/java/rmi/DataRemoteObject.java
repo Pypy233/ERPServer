@@ -1,5 +1,6 @@
 package rmi;
 
+import com.sun.org.apache.regexp.internal.RE;
 import objects.ResultMessage;
 import po.GoodsOverflowPO;
 import service.blservice.*;
@@ -121,7 +122,7 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
-    public ArrayList<GoodsVO> getCurrentGoods() {
+    public ArrayList<GoodsVO> getCurrentGoods() throws RemoteException{
         return goodsBLService.getCurrentGoods();
     }
 

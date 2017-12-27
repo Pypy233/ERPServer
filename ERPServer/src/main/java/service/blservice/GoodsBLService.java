@@ -45,7 +45,7 @@ public interface GoodsBLService extends Remote{
      * 得到当天库存商品
      * @return
      */
-    public ArrayList<GoodsVO> getCurrentGoods();
+    public ArrayList<GoodsVO> getCurrentGoods() throws RemoteException;
 
 
 }
