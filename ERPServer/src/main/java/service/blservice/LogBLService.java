@@ -31,6 +31,13 @@ public interface LogBLService {
     public ResultMessage update(LogVO vo);
 
     /**
+     * 得到当前用户的日志
+     * @param vo
+     * @return
+     */
+    public ArrayList<LogVO> getLog(UserVO vo);
+
+    /**
      * 按照用户名查找日志
      * @param name
      * @return

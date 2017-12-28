@@ -51,6 +51,12 @@ public class LogBLServiceImpl implements LogBLService {
     }
 
     @Override
+    public ArrayList<LogVO> getLog(UserVO vo) {
+        String name = vo.getName();
+        return findByName(name);
+    }
+
+    @Override
     public ArrayList<LogVO> findByName(String name) {
         ArrayList<LogPO> poList = dataFactory.getLogDataService().findByName(name);
         ArrayList<LogVO> voList = new ArrayList<>();
