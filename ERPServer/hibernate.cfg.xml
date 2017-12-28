@@ -69,5 +69,6 @@
         <mapping class = "po.GoodsSaleReturnPO"/>
         <mapping class = "po.UserPO"/>
         <mapping class = "po.AdminPO"/>
+        <mapping class = "po.LogPO"/>
     </session-factory>
 </hibernate-configuration>
