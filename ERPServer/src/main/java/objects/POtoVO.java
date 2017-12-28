@@ -263,4 +263,14 @@ public class POtoVO {
         return vo;
     }
 
+    public LogVO logPO_to_logPO(LogPO po){
+        LogVO vo = new LogVO();
+        vo.setDate(po.getDate());
+        vo.setId(po.getId());
+        vo.setName(po.getName());
+        vo.setOperation(po.getOperation());
+        vo.setResult(po.getOperation());
+        return vo;
+    }
+
 }

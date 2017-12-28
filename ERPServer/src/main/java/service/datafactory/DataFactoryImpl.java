@@ -116,4 +116,10 @@ public class DataFactoryImpl implements DataFactory{
         PresentListDataService presentListData = new PresentListDataServiceImpl();
         return presentListData;
     }
+
+    @Override
+    public LogDataService getLogDataService() {
+        LogDataService logDataService = new LogDataServiceImpl();
+        return logDataService;
+    }
 }

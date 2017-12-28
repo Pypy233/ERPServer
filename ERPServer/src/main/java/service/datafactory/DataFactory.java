@@ -47,4 +47,6 @@ public interface DataFactory {
 
     public PresentListDataService getPresentListDataService();
 
+    public LogDataService getLogDataService();
+
 }

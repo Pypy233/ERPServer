@@ -37,8 +37,8 @@
       <file leaf-file-name="LogPO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/po/LogPO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="37" column="26" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="154">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#964#965#0" expanded="true" />
@@ -66,12 +66,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="GoodsBLServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/GoodsBLServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="63" column="70" lean-forward="false" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LogVO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vo/LogVO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+            <state relative-caret-position="432">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
+                <element signature="e#653#654#0" expanded="true" />
                 <element signature="e#678#679#0" expanded="true" />
                 <element signature="e#711#712#0" expanded="true" />
                 <element signature="e#739#740#0" expanded="true" />
@@ -96,21 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VOChangeToPO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/VOChangeToPO.java">
+      <file leaf-file-name="LogBLService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/LogBLService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="282" column="18" lean-forward="false" selection-start-line="282" selection-start-column="18" selection-end-line="282" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogDataService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/LogDataService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state relative-caret-position="90">
+              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,12 +119,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsPO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/po/GoodsPO.java">
+      <file leaf-file-name="LogBLServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/LogBLServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="86" column="65" lean-forward="true" selection-start-line="85" selection-start-column="2" selection-end-line="86" selection-end-column="65" />
-              <folding />
+            <state relative-caret-position="770">
+              <caret line="74" column="91" lean-forward="false" selection-start-line="74" selection-start-column="91" selection-end-line="74" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogDataServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/LogDataServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,14 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/objects/HQLTools.java" />
-        <option value="$PROJECT_DIR$/src/main/java/objects/POtoVO.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/datatest/UserDataServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vo/AdminVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vo/ClassifyVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vo/GoodsLackVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vo/GoodsOverflowVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vo/GoodsSaleReturnVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/vo/GoodsStockReturnVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/vo/GoodsStockVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/vo/GoodsVO.java" />
@@ -195,9 +202,17 @@
         <option value="$PROJECT_DIR$/src/main/java/service/blservice/MemberBLService.java" />
         <option value="$PROJECT_DIR$/src/main/java/objects/ExcelTools.java" />
         <option value="$PROJECT_DIR$/src/main/java/po/LogPO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/LogDataService.java" />
         <option value="$PROJECT_DIR$/src/main/java/vo/LogVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/VOChangeToPO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/objects/POtoVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/LogDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/LogDateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/datafactory/DataFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/datafactory/DataFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/LogDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/LogBLServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/LogBLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/LogBLServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -320,6 +335,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="datafactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="dataservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -429,19 +453,19 @@
       <recent name="test.datatest" />
       <recent name="service.blservice.Impl" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="service.dataservice.Impl" />
       <recent name="service.blservice.Impl" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+      <recent name="service.dataservice.Impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -722,7 +746,7 @@
       <workItem from="1514370832247" duration="201000" />
       <workItem from="1514371148152" duration="27000" />
       <workItem from="1514372246908" duration="65000" />
-      <workItem from="1514373803563" duration="6044000" />
+      <workItem from="1514373803563" duration="8605000" />
     </task>
     <servers />
   </component>
@@ -759,7 +783,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82094000" />
+    <option name="totallyTimeSpent" value="84655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="0" />
@@ -809,36 +833,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://table:/a902921/b3bc41d0-c435-4053-85fc-1d9a1b69e441/system.Goods" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/GoodsSaleReturnDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/a902921/b3bc41d0-c435-4053-85fc-1d9a1b69e441/system.GoodsSaleReturn" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/datatest/GoodsSaleReturnDataServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/GoodsSaleReturnDataServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/datatest/GoodsStockDataServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/a902921/b3bc41d0-c435-4053-85fc-1d9a1b69e441/system.GoodsStock" />
     <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/GoodsStockDataServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -894,14 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/GoodsBLServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="63" column="70" lean-forward="false" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
           <folding />
         </state>
       </provider>
@@ -1132,26 +1118,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/po/GoodsPO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="1185">
           <caret line="86" column="65" lean-forward="true" selection-start-line="85" selection-start-column="2" selection-end-line="86" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/LogDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/po/LogPO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="37" selection-end-column="26" />
+        <state relative-caret-position="154">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#964#965#0" expanded="true" />
@@ -1178,11 +1154,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/POtoVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="274" column="0" lean-forward="true" selection-start-line="274" selection-start-column="0" selection-end-line="274" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/VOChangeToPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="278" column="29" lean-forward="true" selection-start-line="278" selection-start-column="29" selection-end-line="278" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/datafactory/DataFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="122" column="30" lean-forward="false" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/LogDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/datafactory/DataFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="49" column="46" lean-forward="false" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/LogDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vo/LogVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        <state relative-caret-position="432">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
+            <element signature="e#653#654#0" expanded="true" />
             <element signature="e#678#679#0" expanded="true" />
             <element signature="e#711#712#0" expanded="true" />
             <element signature="e#739#740#0" expanded="true" />
@@ -1206,10 +1235,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/VOChangeToPO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/LogBLService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="282" column="18" lean-forward="false" selection-start-line="282" selection-start-column="18" selection-end-line="282" selection-end-column="18" />
+        <state relative-caret-position="90">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/LogBLServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="74" column="91" lean-forward="false" selection-start-line="74" selection-start-column="91" selection-end-line="74" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/GoodsBLServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="63" column="70" lean-forward="false" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
           <folding />
         </state>
       </provider>
