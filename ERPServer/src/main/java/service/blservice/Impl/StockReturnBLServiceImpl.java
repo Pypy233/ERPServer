@@ -93,4 +93,12 @@ public class StockReturnBLServiceImpl implements StockReturnBLService {
         return voList;
     }
 
+    @Override
+    public StockReturnVO addStockReturnRed(StockReturnVO vo) throws RemoteException {
+        StockReturnPO po = dataFactory.getStockReturnDataService().
+                addRed(voChangeToPO.stockReturnvo_to_stockReturnpo(vo));
+        StockReturnVO vo1 = pOtoVO.stockReturnPO_to_stockReturnVO(po);
+        return vo1;
+    }
+
 }

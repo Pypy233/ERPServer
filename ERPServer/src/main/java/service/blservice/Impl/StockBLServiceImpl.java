@@ -99,4 +99,11 @@ public class StockBLServiceImpl implements StockBLService {
         return voList;
     }
 
+    @Override
+    public StockVO addStockRed(StockVO vo) {
+        StockPO redPo = dataFactory.getStockDataService().addRed(voChangeToPO.stockvo_to_stockpo(vo));
+        StockVO vo1 = pOtoVO.stockpo_to_stockvo(redPo);
+        return vo1;
+    }
+
 }

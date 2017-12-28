@@ -1,5 +1,6 @@
 package service.blservice;
 
+import com.sun.org.apache.regexp.internal.RE;
 import objects.ResultMessage;
 import vo.GoodsStockVO;
 import vo.StockVO;
@@ -77,12 +78,20 @@ public interface StockBLService extends Remote {
     * @param memberName
     * @return
     */
-   public ArrayList<StockVO> getStock(String startTime, String endTime, String userName, String memberName) throws RemoteException;
+   public ArrayList<StockVO> getStock(String startTime, String endTime, String userName,
+                                      String memberName) throws RemoteException;
 
    /**
     * 得到未通过进货单
     * @return
     */
    public ArrayList<StockVO> getStockFail() throws RemoteException;
+
+   /**
+    * 生成红冲
+    * @param vo
+    * @return
+    */
+   public StockVO addStockRed(StockVO vo) throws RemoteException;
 
 }

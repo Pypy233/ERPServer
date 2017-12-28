@@ -106,7 +106,7 @@ public class SaleBLServiceImpl implements SaleBLService {
     }
 
     @Override
-    public ArrayList<SaleVO> getSalFail() throws RemoteException{
+    public ArrayList<SaleVO> getSaleFail() throws RemoteException{
         ArrayList<SalePO> list = dataFactory.getSaleDataService().getFail();
         ArrayList<SaleVO> voList = new ArrayList<>();
         for(int i = 0; i < list.size(); i++){

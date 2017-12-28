@@ -80,5 +80,13 @@ public interface SaleReturnBLService extends Remote {
     public ArrayList<SaleReturnVO> getSaleReturnFail() throws RemoteException;
 
 
+    /**
+     * 生成红冲
+     * @return
+     * @throws RemoteException
+     */
+    public SaleReturnVO addSaleReturnRed(SaleReturnVO vo) throws RemoteException;
+
+
 
 }

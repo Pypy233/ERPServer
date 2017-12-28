@@ -92,5 +92,15 @@ public class SaleReturnBLServiceImpl implements SaleReturnBLService {
         return voList;
     }
 
+    @Override
+    public SaleReturnVO addSaleReturnRed(SaleReturnVO vo) throws RemoteException {
+        SaleReturnPO redPo = dataFactory.getSaleReturnDataService().
+                addRed(voChangeToPO.saleReturnvo_to_saleReturnpo(vo));
+
+        SaleReturnVO vo1 = pOtoVO.saleReturnPO_to_saleReturnVO(redPo);
+
+        return vo1;
+    }
+
 
 }

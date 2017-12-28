@@ -92,13 +92,14 @@ public interface SaleBLService extends Remote {
      * @param memberName
      * @return
      */
-    public ArrayList<SaleVO> getSale(String startTime, String endTime, String userName, String memberName) throws RemoteException;
+    public ArrayList<SaleVO> getSale(String startTime, String endTime, String userName,
+                                     String memberName) throws RemoteException;
 
     /**
      * 得到未通过销售单
      * @return
      */
-    public ArrayList<SaleVO> getSalFail() throws RemoteException;
+    public ArrayList<SaleVO> getSaleFail() throws RemoteException;
 
 
 }

@@ -15,7 +15,8 @@ import java.util.Set;
 public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLService , GoodsBLService,
     GoodsSaleBLService, GoodsSaleReturnBLService, GoodsStockBLService, GoodsStockReturnBLService, MemberBLService,
     SaleBLService, SaleReturnBLService, StockBLService, StockReturnBLService, UserBLService, GoodsLackBLService,
-        GoodsOverflowBLService, PresentBLService, LackListBLService, OverflowListBLService, PresentListBLService, GoodsWarningMessageBLService {
+        GoodsOverflowBLService, PresentBLService, LackListBLService, OverflowListBLService, PresentListBLService,
+        GoodsWarningMessageBLService, LogBLService{
     private static final long serialVersionUID = 4029039744279087114L;
 
     private ClassifyBLService classifyBLService;
@@ -44,6 +45,8 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     private OverflowListBLService overflowListBLService;
     private PresentListBLService presentListBLService;
     private GoodsWarningMessageBLService goodsWarningMessageBLService;
+
+    private LogBLService logBLService;
 
     protected DataRemoteObject() throws RemoteException{
         super();
@@ -75,6 +78,8 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
         presentBLService = new PresentBLServiceImpl();
         presentListBLService = new PresentListBLServiceImpl();
         goodsWarningMessageBLService = new GoodsWarningMessageBLServiceImpl();
+
+        logBLService = new LogBLServiceImpl();
     }
 
 
@@ -142,7 +147,8 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
-    public ResultMessage addGoodsSaleReturn(GoodsVO vo, int saleReturnNumber, double price, String remark) throws RemoteException {
+    public ResultMessage addGoodsSaleReturn(GoodsVO vo, int saleReturnNumber, double price, String remark)
+            throws RemoteException {
         return goodsSaleReturnBLService.addGoodsSaleReturn(vo, saleReturnNumber, price, remark);
     }
 
@@ -177,7 +183,8 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
-    public ResultMessage addGoodsStockReturn(GoodsVO vo, int stockReturnNumber, double price, String remark) throws RemoteException {
+    public ResultMessage addGoodsStockReturn(GoodsVO vo, int stockReturnNumber, double price, String remark)
+            throws RemoteException {
         return goodsStockReturnBLService.addGoodsStockReturn(vo, stockReturnNumber, price, remark);
     }
 
@@ -213,7 +220,8 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
-    public ArrayList<MemberVO> find(String memberClass, int level, String name, String managePerson) throws RemoteException {
+    public ArrayList<MemberVO> find(String memberClass, int level, String name, String managePerson)
+            throws RemoteException {
         return memberBLService.find(memberClass, level, name, managePerson);
     }
 
@@ -251,7 +259,8 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
-    public ArrayList<GoodsSaleVO> checkSale(String startTime, String endTime, String goodsName, String userName, String memberName) throws RemoteException {
+    public ArrayList<GoodsSaleVO> checkSale(String startTime, String endTime, String goodsName,
+                                            String userName, String memberName) throws RemoteException {
         return saleBLService.checkSale(startTime, endTime, goodsName, userName, memberName);
     }
 
@@ -261,14 +270,16 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
-    public ArrayList<SaleVO> getSale(String startTime, String endTime, String userName, String memberName) throws RemoteException {
+    public ArrayList<SaleVO> getSale(String startTime, String endTime, String userName, String memberName)
+            throws RemoteException {
         return saleBLService.getSale(startTime, endTime, userName, memberName);
     }
 
     @Override
-    public ArrayList<SaleVO> getSalFail() throws RemoteException {
-        return saleBLService.getSalFail();
+    public ArrayList<SaleVO> getSaleFail() throws RemoteException {
+        return saleBLService.getSaleFail();
     }
+
 
     @Override
     public ResultMessage addSaleReturn(String retailer, String salesman, String operator, String remark,
@@ -311,6 +322,11 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     @Override
     public ArrayList<SaleReturnVO> getSaleReturnFail() throws RemoteException {
         return saleReturnBLService.getSaleReturnFail();
+    }
+
+    @Override
+    public SaleReturnVO addSaleReturnRed(SaleReturnVO vo) throws RemoteException {
+        return saleReturnBLService.addSaleReturnRed(vo);
     }
 
     @Override
@@ -359,6 +375,11 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
+    public StockVO addStockRed(StockVO vo) throws RemoteException {
+        return stockBLService.addStockRed(vo);
+    }
+
+    @Override
     public ResultMessage addStockReturn(String provider, String remark, Set<GoodsStockReturnVO> set) throws RemoteException {
         return stockReturnBLService.addStockReturn(provider, remark, set);
     }
@@ -397,6 +418,11 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     @Override
     public ArrayList<StockReturnVO> getStockReturnFail() throws RemoteException {
         return stockReturnBLService.getStockReturnFail();
+    }
+
+    @Override
+    public StockReturnVO addStockReturnRed(StockReturnVO vo) throws RemoteException {
+        return stockReturnBLService.addStockReturnRed(vo);
     }
 
     @Override
@@ -450,7 +476,8 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
-    public ArrayList<LackListVO> getLackList(String startTime, String endTime, String userName)throws RemoteException {
+    public ArrayList<LackListVO> getLackList(String startTime, String endTime, String userName)
+            throws RemoteException {
         return lackListBLService.getLackList(startTime, endTime, userName);
     }
 
@@ -475,7 +502,8 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
-    public ArrayList<OverflowListVO> getOverflowList(String startTime, String endTime, String userName) throws RemoteException{
+    public ArrayList<OverflowListVO> getOverflowList(String startTime, String endTime, String userName)
+            throws RemoteException{
         return overflowListBLService.getOverflowList(startTime, endTime, userName);
     }
 
@@ -544,5 +572,40 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     @Override
     public ArrayList<GoodsVO> getWarningMessage(int number) throws RemoteException{
         return goodsWarningMessageBLService.getWarningMessage(number);
+    }
+
+    @Override
+    public ResultMessage addLog(UserVO vo, String operation, ResultMessage msg) {
+        return logBLService.addLog(vo, operation, msg);
+    }
+
+    @Override
+    public ResultMessage delete(LogVO vo) {
+        return logBLService.delete(vo);
+    }
+
+    @Override
+    public ResultMessage update(LogVO vo) {
+        return logBLService.update(vo);
+    }
+
+    @Override
+    public ArrayList<LogVO> getLog(UserVO vo) {
+        return logBLService.getLog(vo);
+    }
+
+    @Override
+    public ArrayList<LogVO> findByName(String name) {
+        return logBLService.findByName(name);
+    }
+
+    @Override
+    public ArrayList<LogVO> findByDate(String date) {
+        return logBLService.findByDate(date);
+    }
+
+    @Override
+    public ArrayList<LogVO> findByOperation(String operation) {
+        return logBLService.findByOperation(operation);
     }
 }
