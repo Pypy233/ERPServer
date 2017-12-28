@@ -273,5 +273,15 @@ public class VOChangeToPO {
         return po;
     }
 
+    public LogPO logvo_to_logpo(LogVO vo){
+        LogPO po = new LogPO();
+        po.setDate(vo.getDate());
+        po.setId(vo.getId());
+        po.setName(vo.getName());
+        po.setOperation(vo.getOperation());
+        po.setResult(vo.getResult());
+        return po;
+    }
+
 
 }
