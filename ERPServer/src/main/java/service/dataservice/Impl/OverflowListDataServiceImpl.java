@@ -80,4 +80,10 @@ DateHelper dateHelper = new DateHelper();
         HQLTools.add(set1);
         return po1;
     }
+
+    @Override
+    public ArrayList<OverflowListPO> getAllList() {
+        ArrayList<OverflowListPO> list = (ArrayList<OverflowListPO>) HQLTools.find("from OverflowList");
+        return list;
+    }
 }

@@ -75,4 +75,10 @@ public class LackListDataServiceImpl implements LackListDataService {
         HQLTools.add(po1);
         return po1;
     }
+
+    @Override
+    public ArrayList<LackListPO> getAllList() {
+        ArrayList<LackListPO> list = (ArrayList<LackListPO>)HQLTools.find("from LackList");
+        return list;
+    }
 }

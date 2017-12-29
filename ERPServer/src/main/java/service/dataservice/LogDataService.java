@@ -1,6 +1,7 @@
 package service.dataservice;
 
 import objects.ResultMessage;
+import po.LackListPO;
 import po.LogPO;
 
 import java.util.ArrayList;
@@ -47,5 +48,6 @@ public interface LogDataService {
      * @return
      */
     public ArrayList<LogPO> findByOperation(String operation);
+
 
 }

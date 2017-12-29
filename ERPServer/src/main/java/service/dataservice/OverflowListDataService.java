@@ -46,4 +46,10 @@ public interface OverflowListDataService {
      * @return
      */
     public OverflowListPO addRed(OverflowListPO po);
+
+    /**
+     * 得到所有报损单
+     * @return
+     */
+    public ArrayList<OverflowListPO> getAllList();
 }

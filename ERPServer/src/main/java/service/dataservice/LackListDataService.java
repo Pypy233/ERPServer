@@ -48,5 +48,10 @@ public interface LackListDataService {
      */
     public LackListPO addRed(LackListPO po);
 
+    /**
+     * 得到所有报损单
+     * @return
+     */
+    public ArrayList<LackListPO> getAllList();
 
 }

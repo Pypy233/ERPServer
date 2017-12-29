@@ -47,4 +47,10 @@ public interface PresentListDataService {
      * @return
      */
     public PresentListPO addRed(PresentListPO po);
+
+    /**
+     * 得到所有礼品单
+     * @return
+     */
+    public ArrayList<PresentListPO> getAllList();
 }

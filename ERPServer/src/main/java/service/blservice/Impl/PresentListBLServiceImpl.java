@@ -59,4 +59,14 @@ public class PresentListBLServiceImpl implements PresentListBLService{
         PresentListVO vo1 = pOtoVO.presentListPO_to_presentListVO(redPo);
         return vo1;
     }
+
+    @Override
+    public ArrayList<PresentListVO> getAllPresentList() throws RemoteException {
+        ArrayList<PresentListPO> poList = dataFactory.getPresentListDataService().getAllList();
+        ArrayList<PresentListVO> voList = new ArrayList<>();
+        for(int i = 0; i < poList.size(); i++){
+            voList.add(pOtoVO.presentListPO_to_presentListVO(poList.get(i)));
+        }
+        return voList;
+    }
 }

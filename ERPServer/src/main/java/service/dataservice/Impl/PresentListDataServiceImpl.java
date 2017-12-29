@@ -7,6 +7,7 @@ import po.MemberPO;
 import po.PresentListPO;
 import po.PresentPO;
 import po.UserPO;
+import service.blservice.PresentListBLService;
 import service.datafactory.DataFactory;
 import service.datafactory.DataFactoryImpl;
 import service.dataservice.PresentListDataService;
@@ -74,5 +75,11 @@ public class PresentListDataServiceImpl implements PresentListDataService {
         }
         po1.setSet(set1);
         return po1;
+    }
+
+    @Override
+    public ArrayList<PresentListPO> getAllList() {
+        ArrayList<PresentListPO> list = (ArrayList<PresentListPO>) HQLTools.find("from PresentList");
+        return list;
     }
 }
