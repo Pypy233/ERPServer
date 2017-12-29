@@ -21,7 +21,6 @@ public class ExcelTools {
         WritableWorkbook wb = Workbook.createWorkbook(os);
         WritableSheet sheet = wb.createSheet("detail", 0);
 
-
         for(int i = 0; i < output.length; i++){
             for(int j = 0; j < output[0].length; j++){
                 sheet.addCell(new Label(i, j, String.valueOf(output[i][j])));
