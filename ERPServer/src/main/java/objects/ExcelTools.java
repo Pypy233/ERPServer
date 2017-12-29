@@ -5,13 +5,13 @@ package objects;
  * 导出Excel的工具类
  */
 
-import jxl.Workbook;
-import jxl.write.Label;
-import jxl.write.WritableSheet;
-import jxl.write.WritableWorkbook;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
+        import jxl.Workbook;
+        import jxl.write.Label;
+        import jxl.write.WritableSheet;
+        import jxl.write.WritableWorkbook;
+        import java.io.File;
+        import java.io.FileOutputStream;
+        import java.io.OutputStream;
 
 public class ExcelTools {
     public static void export(String fileName, String[][] output) throws Exception{
@@ -34,8 +34,8 @@ public class ExcelTools {
     /**
      * demo成功
      */
-   // public static void main(String[] args) throws Exception{
-         //   String[][] output = {{"t1", "demo"}, {"t2", "demo1"}, {"t3", "demo2"}, {"t4", "demo3"}};
-   //         export("demo", output);
+    // public static void main(String[] args) throws Exception{
+    //   String[][] output = {{"t1", "demo"}, {"t2", "demo1"}, {"t3", "demo2"}, {"t4", "demo3"}};
+    //         export("demo", output);
     //}
 }
