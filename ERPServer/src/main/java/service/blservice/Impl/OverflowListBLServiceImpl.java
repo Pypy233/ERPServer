@@ -58,4 +58,14 @@ public class OverflowListBLServiceImpl implements OverflowListBLService{
         OverflowListVO vo1 = pOtoVO.overflowListVO_to_overflowListPO(redPo);
         return vo1;
     }
+
+    @Override
+    public ArrayList<OverflowListVO> getAllOverflowList() throws RemoteException {
+        ArrayList<OverflowListPO> poList = dataFactory.getOverflowListDataService().getAllList();
+        ArrayList<OverflowListVO> voList = new ArrayList<>();
+        for(int i = 0; i < poList.size(); i++){
+            voList.add(pOtoVO.overflowListVO_to_overflowListPO(poList.get(i)));
+        }
+        return voList;
+    }
 }

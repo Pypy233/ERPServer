@@ -57,4 +57,14 @@ public class LackListBLServiceImpl implements LackListBLService {
         LackListVO vo1 = pOtoVO.lackListPO_to_lackListVO(redPo);
         return vo1;
     }
+
+    @Override
+    public ArrayList<LackListVO> getAllLackList() throws RemoteException {
+        ArrayList<LackListPO> poList = dataFactory.getLackListDataService().getAllList();
+        ArrayList<LackListVO> voList = new ArrayList<>();
+        for(int i = 0; i < poList.size(); i++){
+            voList.add(pOtoVO.lackListPO_to_lackListVO(poList.get(i)));
+        }
+        return voList;
+    }
 }

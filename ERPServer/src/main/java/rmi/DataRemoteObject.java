@@ -487,6 +487,11 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     }
 
     @Override
+    public ArrayList<LackListVO> getAllLackList() throws RemoteException {
+        return lackListBLService.getAllLackList();
+    }
+
+    @Override
     public ResultMessage addOverflowList(OverflowListVO vo)throws RemoteException {
         return overflowListBLService.addOverflowList(vo);
     }
@@ -510,6 +515,11 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     @Override
     public OverflowListVO addOverflowListRed(OverflowListVO vo)throws RemoteException {
         return overflowListBLService.addOverflowListRed(vo);
+    }
+
+    @Override
+    public ArrayList<OverflowListVO> getAllOverflowList() throws RemoteException {
+        return overflowListBLService.getAllOverflowList();
     }
 
     @Override
@@ -552,6 +562,12 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     @Override
     public PresentListVO addPresentListRed(PresentListVO vo)throws RemoteException {
         return presentListBLService.addPresentListRed(vo);
+    }
+
+    @Override
+    public ArrayList<PresentListVO> getAllPresentList() throws RemoteException {
+        return presentListBLService.getAllPresentList();
+
     }
 
     @Override

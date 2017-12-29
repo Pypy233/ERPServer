@@ -1,5 +1,6 @@
 package service.blservice;
 
+import com.sun.org.apache.regexp.internal.RE;
 import objects.ResultMessage;
 import vo.OverflowListVO;
 import vo.UserVO;
@@ -45,4 +46,11 @@ public interface OverflowListBLService extends Remote {
      * @return
      */
     public OverflowListVO addOverflowListRed(OverflowListVO vo)throws RemoteException;
+
+    /**
+     * 得到所有报溢单
+     * @return
+     * @throws RemoteException
+     */
+    public ArrayList<OverflowListVO> getAllOverflowList() throws RemoteException;
 }
