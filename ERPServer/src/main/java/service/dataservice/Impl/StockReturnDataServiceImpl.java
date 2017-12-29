@@ -53,6 +53,9 @@ public class StockReturnDataServiceImpl implements StockReturnDataService {
 
     @Override
     public void passCheck(StockReturnPO po) {
+        po.setState("pass");
+        update(po);
+
         ArrayList<MemberPO> list = dataFactory.getMemberDataService().find
                 ("", po.getProvider(), "供货商");
         MemberPO memberPO = list.get(0);

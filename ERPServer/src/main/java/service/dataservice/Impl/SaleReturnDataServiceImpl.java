@@ -57,7 +57,8 @@ public class SaleReturnDataServiceImpl implements SaleReturnDataService{
                 ("", po.getRetailer(), "销售商");
         MemberPO memberPO = list.get(0);
         HQLTools.update(memberPO);
-
+        po.setState("pass");
+        update(po);
         memberPO.setCollection(po.getPayPrice());
         Set<GoodsSaleReturnPO> set = po.getSaleReturnSet();
         for(GoodsSaleReturnPO goodsSaleReturnPO : set){

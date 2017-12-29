@@ -53,10 +53,13 @@ DateHelper dateHelper = new DateHelper();
 
     @Override
     public void passCheck(SalePO po) {
+
         ArrayList<MemberPO> list = dataFactory.getMemberDataService().find
                 ("", po.getRetailer(), "销售商");
         MemberPO memberPO = list.get(0);
         HQLTools.update(memberPO);
+        po.setState("pass");
+        update(po);
 
         memberPO.setPayment(po.getTotalPrice());
         Set<GoodsSalePO> set = po.getSaleSet();
