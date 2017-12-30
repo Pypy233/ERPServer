@@ -1,6 +1,9 @@
 package po;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.io.Serializable;
 
@@ -35,6 +38,8 @@ public class AdminPO implements Serializable {
     }
 
     @Id
+    @GeneratedValue(generator="increment")
+    @GenericGenerator(name = "increment", strategy = "increment")
     public int getId() {
         return id;
     }
