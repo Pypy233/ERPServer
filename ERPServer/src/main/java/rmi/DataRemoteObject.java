@@ -16,7 +16,7 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     GoodsSaleBLService, GoodsSaleReturnBLService, GoodsStockBLService, GoodsStockReturnBLService, MemberBLService,
     SaleBLService, SaleReturnBLService, StockBLService, StockReturnBLService, UserBLService, GoodsLackBLService,
         GoodsOverflowBLService, PresentBLService, LackListBLService, OverflowListBLService, PresentListBLService,
-        GoodsWarningMessageBLService, LogBLService{
+        GoodsWarningMessageBLService, LogBLService, AdminBLService{
     private static final long serialVersionUID = 4029039744279087114L;
 
     private ClassifyBLService classifyBLService;

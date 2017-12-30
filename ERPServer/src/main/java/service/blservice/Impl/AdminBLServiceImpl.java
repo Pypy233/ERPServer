@@ -11,6 +11,7 @@ import service.datafactory.DataFactoryImpl;
 import vo.AdminVO;
 import vo.UserVO;
 
+import java.rmi.RemoteException;
 import java.util.ArrayList;
 
 public class AdminBLServiceImpl implements AdminBLService {
@@ -19,28 +20,28 @@ public class AdminBLServiceImpl implements AdminBLService {
     VOChangeToPO voChangeToPO = new VOChangeToPO();
 
     @Override
-    public ResultMessage addAdmin(AdminVO vo) {
+    public ResultMessage addAdmin(AdminVO vo) throws RemoteException{
         AdminPO po = voChangeToPO.adminvo_to_adminpo(vo);
         ResultMessage msg = dataFactory.getAdminDataService().add(po);
         return msg;
     }
 
     @Override
-    public ResultMessage deleteAdmin(AdminVO vo) {
+    public ResultMessage deleteAdmin(AdminVO vo) throws RemoteException {
         AdminPO po = voChangeToPO.adminvo_to_adminpo(vo);
         ResultMessage msg = dataFactory.getAdminDataService().delete(po);
         return msg;
     }
 
     @Override
-    public ResultMessage updateAdmin(AdminVO vo) {
+    public ResultMessage updateAdmin(AdminVO vo) throws RemoteException {
         AdminPO po = voChangeToPO.adminvo_to_adminpo(vo);
         ResultMessage msg = dataFactory.getAdminDataService().update(po);
         return msg;
     }
 
     @Override
-    public ArrayList<UserVO> getAllUsers() {
+    public ArrayList<UserVO> getAllUsers() throws RemoteException {
         ArrayList<UserVO> voList = new ArrayList<>();
         ArrayList<UserPO> poList = dataFactory.getAdminDataService().getUsers();
 
@@ -51,7 +52,7 @@ public class AdminBLServiceImpl implements AdminBLService {
     }
 
     @Override
-    public ArrayList<UserVO> findByType(String type) {
+    public ArrayList<UserVO> findByType(String type) throws RemoteException {
         ArrayList<UserVO> voList = new ArrayList<>();
         ArrayList<UserPO> poList = dataFactory.getAdminDataService().find(type);
 
@@ -62,14 +63,14 @@ public class AdminBLServiceImpl implements AdminBLService {
     }
 
     @Override
-    public ResultMessage addAdvancedUser(UserVO vo) {
+    public ResultMessage addAdvancedUser(UserVO vo) throws RemoteException {
         UserPO po = voChangeToPO.uservo_to_userpo(vo);
         ResultMessage msg = dataFactory.getAdminDataService().addAdvancedUser(po);
         return msg;
     }
 
     @Override
-    public ResultMessage deleteUser(UserVO vo) {
+    public ResultMessage deleteUser(UserVO vo) throws RemoteException {
         UserPO po = voChangeToPO.uservo_to_userpo(vo);
         ResultMessage msg = dataFactory.getUserDataService().delete(po);
         return msg;

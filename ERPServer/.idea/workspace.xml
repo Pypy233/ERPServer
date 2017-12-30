@@ -44,13 +44,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminBLServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminBLServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/AdminBLServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+            <state relative-caret-position="340">
+              <caret line="72" column="70" lean-forward="false" selection-start-line="72" selection-start-column="70" selection-end-line="72" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataRemoteObject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="e#20777#20778#0" expanded="true" />
+                <element signature="e#20829#20830#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +72,8 @@
       <file leaf-file-name="AdminBLService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/AdminBLService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+            <state relative-caret-position="343">
+              <caret line="58" column="69" lean-forward="false" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,7 +151,6 @@
         <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/OverflowListBLServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/blservice/LackListBLService.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/LackListBLServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/SaleDataServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/SaleReturnDataServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/StockDataServiceImpl.java" />
@@ -153,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/main/java/objects/POtoVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/po/AdminPO.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/dataservice/Impl/AdminDataServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/blservice/AdminBLService.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/AdminBLServiceImpl.java" />
       </list>
@@ -704,7 +717,7 @@
       <workItem from="1514541955549" duration="1315000" />
       <workItem from="1514548934426" duration="182000" />
       <workItem from="1514550056356" duration="3158000" />
-      <workItem from="1514560472058" duration="7259000" />
+      <workItem from="1514560472058" duration="7340000" />
     </task>
     <servers />
   </component>
@@ -741,7 +754,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102794000" />
+    <option name="totallyTimeSpent" value="102875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="821" extended-state="6" />
@@ -873,17 +886,6 @@
         <state relative-caret-position="225">
           <caret line="57" column="22" lean-forward="true" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9000">
-          <caret line="618" column="51" lean-forward="true" selection-start-line="618" selection-start-column="51" selection-end-line="618" selection-end-column="51" />
-          <folding>
-            <element signature="e#20761#20762#0" expanded="false" />
-            <element signature="e#20813#20814#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1184,8 +1186,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/AdminBLService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+        <state relative-caret-position="343">
+          <caret line="58" column="69" lean-forward="false" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1194,10 +1196,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/AdminBLServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+        <state relative-caret-position="340">
+          <caret line="72" column="70" lean-forward="false" selection-start-line="72" selection-start-column="70" selection-end-line="72" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#20777#20778#0" expanded="true" />
+            <element signature="e#20829#20830#0" expanded="true" />
           </folding>
         </state>
       </provider>
