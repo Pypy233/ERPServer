@@ -122,4 +122,10 @@ public class DataFactoryImpl implements DataFactory{
         LogDataService logDataService = new LogDataServiceImpl();
         return logDataService;
     }
+
+    @Override
+    public AdminDataService getAdminDataService() {
+        AdminDataService adminDataService = new AdminDataServiceImpl();
+        return adminDataService;
+    }
 }

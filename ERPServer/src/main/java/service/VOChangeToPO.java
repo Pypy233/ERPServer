@@ -283,5 +283,13 @@ public class VOChangeToPO {
         return po;
     }
 
+    public AdminPO adminvo_to_adminpo(AdminVO vo){
+        AdminPO po = new AdminPO();
+        po.setId(vo.getId());
+        po.setName(vo.getName());
+        po.setPassword(vo.getPassword());
+        return po;
+    }
+
 
 }

@@ -17,14 +17,14 @@ public interface AdminDataService {
 
 
     /**
-     * 删除神奇的管理员
+     * 增加神奇的管理员
      * @param po
      * @return
      */
     public ResultMessage delete(AdminPO po);
 
     /**
-     * 更新神奇的管理员
+     * 增加神奇的管理员
      * @param po
      * @return
      */

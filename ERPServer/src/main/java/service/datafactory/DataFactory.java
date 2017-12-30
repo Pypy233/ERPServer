@@ -49,4 +49,6 @@ public interface DataFactory {
 
     public LogDataService getLogDataService();
 
+    public AdminDataService getAdminDataService();
+
 }
