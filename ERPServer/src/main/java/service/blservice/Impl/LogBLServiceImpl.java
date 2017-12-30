@@ -61,7 +61,7 @@ public class LogBLServiceImpl implements LogBLService {
         ArrayList<LogPO> poList = dataFactory.getLogDataService().findByName(name);
         ArrayList<LogVO> voList = new ArrayList<>();
         for(int i = 0; i < poList.size(); i++){
-            voList.add(pOtoVO.logPO_to_logPO(poList.get(i)));
+            voList.add(pOtoVO.logPO_to_logVO(poList.get(i)));
         }
         return voList;
     }
@@ -71,7 +71,7 @@ public class LogBLServiceImpl implements LogBLService {
         ArrayList<LogPO> poList = dataFactory.getLogDataService().findByDate(date);
         ArrayList<LogVO> voList = new ArrayList<>();
         for(int i = 0; i < poList.size(); i++){
-            voList.add(pOtoVO.logPO_to_logPO(poList.get(i)));
+            voList.add(pOtoVO.logPO_to_logVO(poList.get(i)));
         }
         return voList;
     }
@@ -81,7 +81,7 @@ public class LogBLServiceImpl implements LogBLService {
         ArrayList<LogPO> poList = dataFactory.getLogDataService().findByOperation(operation);
         ArrayList<LogVO> voList = new ArrayList<>();
         for(int i = 0; i < poList.size(); i++){
-            voList.add(pOtoVO.logPO_to_logPO(poList.get(i)));
+            voList.add(pOtoVO.logPO_to_logVO(poList.get(i)));
         }
         return voList;
     }
