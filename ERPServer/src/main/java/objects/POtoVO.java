@@ -273,7 +273,7 @@ public class POtoVO {
         return vo;
     }
 
-    public AdminVO adminPO_to_adminPO(AdminPO po){
+    public AdminVO adminPO_to_adminVO(AdminPO po){
         AdminVO vo = new AdminVO();
         vo.setId(po.getId());
         vo.setName(po.getName());

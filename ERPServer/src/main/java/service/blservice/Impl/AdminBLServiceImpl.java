@@ -3,6 +3,7 @@ package service.blservice.Impl;
 import objects.POtoVO;
 import objects.ResultMessage;
 import po.AdminPO;
+import po.UserPO;
 import service.VOChangeToPO;
 import service.blservice.AdminBLService;
 import service.datafactory.DataFactory;
@@ -26,26 +27,44 @@ public class AdminBLServiceImpl implements AdminBLService {
 
     @Override
     public ResultMessage deleteAdmin(AdminVO vo) {
-        return null;
+        AdminPO po = voChangeToPO.adminvo_to_adminpo(vo);
+        ResultMessage msg = dataFactory.getAdminDataService().delete(po);
+        return msg;
     }
 
     @Override
     public ResultMessage updateAdmin(AdminVO vo) {
-        return null;
+        AdminPO po = voChangeToPO.adminvo_to_adminpo(vo);
+        ResultMessage msg = dataFactory.getAdminDataService().update(po);
+        return msg;
     }
 
     @Override
     public ArrayList<UserVO> getAllUsers() {
-        return null;
+        ArrayList<UserVO> voList = new ArrayList<>();
+        ArrayList<UserPO> poList = dataFactory.getAdminDataService().getUsers();
+
+        for(int i = 0; i < poList.size(); i++){
+            voList.add(pOtoVO.userpo_to_uservo(poList.get(i)));
+        }
+        return voList;
     }
 
     @Override
     public ArrayList<UserVO> findByType(String type) {
-        return null;
+        ArrayList<UserVO> voList = new ArrayList<>();
+        ArrayList<UserPO> poList = dataFactory.getAdminDataService().find(type);
+
+        for(int i = 0; i < poList.size(); i++){
+            voList.add(pOtoVO.userpo_to_uservo(poList.get(i)));
+        }
+        return voList;
     }
 
     @Override
     public ResultMessage addAdvancedUser(UserVO vo) {
-        return null;
+        UserPO po = voChangeToPO.uservo_to_userpo(vo);
+        ResultMessage msg = dataFactory.getAdminDataService().addAdvancedUser(po);
+        return msg;
     }
 }
