@@ -48,6 +48,9 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
 
     private LogBLService logBLService;
 
+    private AdminBLService adminBLService;
+
+
     protected DataRemoteObject() throws RemoteException{
         super();
         classifyBLService = new ClassifyBLServiceImpl();
@@ -80,6 +83,8 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
         goodsWarningMessageBLService = new GoodsWarningMessageBLServiceImpl();
 
         logBLService = new LogBLServiceImpl();
+
+        adminBLService = new AdminBLServiceImpl();
     }
 
 
@@ -623,5 +628,40 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     @Override
     public ArrayList<LogVO> findByOperation(String operation) {
         return logBLService.findByOperation(operation);
+    }
+
+    @Override
+    public ResultMessage addAdmin(AdminVO vo) throws RemoteException {
+        return adminBLService.addAdmin(vo);
+    }
+
+    @Override
+    public ResultMessage deleteAdmin(AdminVO vo) throws RemoteException {
+        return adminBLService.deleteAdmin(vo);
+    }
+
+    @Override
+    public ResultMessage updateAdmin(AdminVO vo) throws RemoteException {
+        return adminBLService.updateAdmin(vo);
+    }
+
+    @Override
+    public ArrayList<UserVO> getAllUsers() throws RemoteException {
+        return adminBLService.getAllUsers();
+    }
+
+    @Override
+    public ArrayList<UserVO> findByType(String type) throws RemoteException {
+        return adminBLService.findByType(type);
+    }
+
+    @Override
+    public ResultMessage addAdvancedUser(UserVO vo) throws RemoteException {
+        return adminBLService.addAdvancedUser(vo);
+    }
+
+    @Override
+    public ResultMessage deleteUser(UserVO vo) throws RemoteException {
+        return adminBLService.deleteUser(vo);
     }
 }
