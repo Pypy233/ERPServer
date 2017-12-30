@@ -66,7 +66,8 @@ public class AdminDataServiceImplTest {
         po.setType("销售经理");
         po.setName("演员");
         po.setPassword("null");
-        ResultMessage msg = 
+        ResultMessage msg = dataService.addAdvancedUser(po);
+        assertEquals(ResultMessage.Success, msg);
     }
 
 }

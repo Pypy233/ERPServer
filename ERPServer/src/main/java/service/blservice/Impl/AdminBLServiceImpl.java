@@ -67,4 +67,11 @@ public class AdminBLServiceImpl implements AdminBLService {
         ResultMessage msg = dataFactory.getAdminDataService().addAdvancedUser(po);
         return msg;
     }
+
+    @Override
+    public ResultMessage deleteUser(UserVO vo) {
+        UserPO po = voChangeToPO.uservo_to_userpo(vo);
+        ResultMessage msg = dataFactory.getUserDataService().delete(po);
+        return msg;
+    }
 }

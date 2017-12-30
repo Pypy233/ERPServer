@@ -49,4 +49,11 @@ public interface AdminBLService {
      * @return
      */
     public ResultMessage addAdvancedUser(UserVO vo);
+
+    /**
+     * 删除用户
+     * @param vo
+     * @return
+     */
+    public ResultMessage deleteUser(UserVO vo);
 }
