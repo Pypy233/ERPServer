@@ -77,7 +77,8 @@ public class StockReturnDataServiceImpl implements StockReturnDataService {
     }
 
     @Override
-    public ArrayList<StockReturnPO> getStockReturn(String startTime, String endTime, String userName, String memberName) {
+    public ArrayList<StockReturnPO> getStockReturn(String startTime, String endTime,
+                                                   String userName, String memberName) {
         ArrayList<StockReturnPO> list = (ArrayList<StockReturnPO>)HQLTools.find("from StockReturn");
         int size = list.size();
         if(size == 0)

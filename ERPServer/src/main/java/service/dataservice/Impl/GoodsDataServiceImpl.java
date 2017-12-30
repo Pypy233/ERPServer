@@ -77,7 +77,7 @@ public class GoodsDataServiceImpl implements GoodsDataService  {
 
     @Override
     public ArrayList<GoodsPO> getCurrentGoods() {
-        ArrayList<GoodsPO> list = (ArrayList<GoodsPO>) HQLTools.find("from goods");
+        ArrayList<GoodsPO> list = (ArrayList<GoodsPO>) HQLTools.find("from Goods");
         for(int i = 0; i < list.size(); i++){
             if(list.get(i).getCommodityNum() == 0)
                 list.remove(i);
