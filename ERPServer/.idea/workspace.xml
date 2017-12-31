@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbddbd31-51e1-4d91-83f3-bf609ec56fa9" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="system" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserDataServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/UserDataServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-195">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminBLServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/AdminBLServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="72" column="70" lean-forward="false" selection-start-line="72" selection-start-column="70" selection-end-line="72" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataRemoteObject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9600">
+              <caret line="660" column="5" lean-forward="true" selection-start-line="660" selection-start-column="5" selection-end-line="660" selection-end-column="5" />
+              <folding>
+                <element signature="e#20874#20875#0" expanded="true" />
+                <element signature="e#20926#20927#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminBLService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/AdminBLService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="58" column="69" lean-forward="false" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin" pinned="false" current-in-tab="false">
+        <entry file="das://table:/a902921/b3bc41d0-c435-4053-85fc-1d9a1b69e441/system.Admin">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/service/blservice/Impl</dir>
+    </dirStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/MemberBLServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/MemberDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/MemberBLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/po/LogPO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vo/LogVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/LogDateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/LogDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/LogBLServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/test/datatest/LogDataServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/LogBLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/SaleBLServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/SaleBLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/SaleReturnBLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/SaleReturnBLServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/StockBLServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/StockBLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/StockReturnBLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/StockReturnBLServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/objects/ExcelTools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/PresentListBLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/PresentListDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/PresentListDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/OverflowListDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/OverflowListDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/LogDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/LackListDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/LackListDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/PresentListBLServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/OverflowListBLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/OverflowListBLServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/LackListBLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/LackListBLServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/SaleDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/SaleReturnDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/StockDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/StockReturnDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/GoodsDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/AdminDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/dataservice/AdminDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/datafactory/DataFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/datafactory/DataFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/VOChangeToPO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/LogBLServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/objects/POtoVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/po/AdminPO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/dataservice/Impl/AdminDataServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/AdminBLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/AdminBLServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="817" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rmi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="blservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="blservice" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="datafactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="dataservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="dataservice" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datatest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15384616" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/service/blservice/Impl" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="service.dataservice.Impl" />
+      <recent name="test.datatest" />
+      <recent name="service.blservice.Impl" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="service.blservice.Impl" />
+      <recent name="service.dataservice.Impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/service/blservice" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AdminDataServiceImplTest.addAdvancedUser">
+    <configuration name="AdminDataServiceImplTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.dataservice.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ERPServer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service.dataservice.Impl" />
+      <option name="MAIN_CLASS_NAME" value="service.dataservice.Impl.AdminDataServiceImplTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AdminDataServiceImplTest.addAdvancedUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.dataservice.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ERPServer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service.dataservice.Impl" />
+      <option name="MAIN_CLASS_NAME" value="service.dataservice.Impl.AdminDataServiceImplTest" />
+      <option name="METHOD_NAME" value="addAdvancedUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AdminDataServiceImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.dataservice.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ERPServer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service.dataservice.Impl" />
+      <option name="MAIN_CLASS_NAME" value="service.dataservice.Impl.AdminDataServiceImplTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AdminDataServiceImplTest.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.dataservice.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ERPServer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service.dataservice.Impl" />
+      <option name="MAIN_CLASS_NAME" value="service.dataservice.Impl.AdminDataServiceImplTest" />
+      <option name="METHOD_NAME" value="find" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AdminDataServiceImplTest.getUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="service.dataservice.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ERPServer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service.dataservice.Impl" />
+      <option name="MAIN_CLASS_NAME" value="service.dataservice.Impl.AdminDataServiceImplTest" />
+      <option name="METHOD_NAME" value="getUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AdminDataServiceImplTest.add" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AdminDataServiceImplTest.delete" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AdminDataServiceImplTest.getUsers" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AdminDataServiceImplTest.find" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AdminDataServiceImplTest.addAdvancedUser" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AdminDataServiceImplTest.addAdvancedUser" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AdminDataServiceImplTest.find" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AdminDataServiceImplTest.getUsers" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AdminDataServiceImplTest.add" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AdminDataServiceImplTest.delete" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbddbd31-51e1-4d91-83f3-bf609ec56fa9" name="Default" comment="" />
+      <created>1513872588768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513872588768</updated>
+      <workItem from="1513872589935" duration="439000" />
+      <workItem from="1513873497861" duration="937000" />
+      <workItem from="1513906099782" duration="45000" />
+      <workItem from="1513906213860" duration="18000" />
+      <workItem from="1513906261352" duration="21000" />
+      <workItem from="1513906397983" duration="135000" />
+      <workItem from="1513909924974" duration="676000" />
+      <workItem from="1513910642287" duration="24000" />
+      <workItem from="1513911007014" duration="650000" />
+      <workItem from="1513913107139" duration="6672000" />
+      <workItem from="1513931488951" duration="1599000" />
+      <workItem from="1513934226390" duration="835000" />
+      <workItem from="1513943454325" duration="33000" />
+      <workItem from="1513949778752" duration="6465000" />
+      <workItem from="1513996606232" duration="26954000" />
+      <workItem from="1514034758085" duration="35000" />
+      <workItem from="1514034818646" duration="10000" />
+      <workItem from="1514034860529" duration="423000" />
+      <workItem from="1514090394487" duration="767000" />
+      <workItem from="1514091247311" duration="4075000" />
+      <workItem from="1514095356763" duration="656000" />
+      <workItem from="1514096017010" duration="3383000" />
+      <workItem from="1514181968741" duration="1987000" />
+      <workItem from="1514184444672" duration="527000" />
+      <workItem from="1514185265670" duration="2782000" />
+      <workItem from="1514199040641" duration="4869000" />
+      <workItem from="1514204560020" duration="1209000" />
+      <workItem from="1514206988746" duration="846000" />
+      <workItem from="1514259641203" duration="4612000" />
+      <workItem from="1514269600374" duration="39000" />
+      <workItem from="1514269768559" duration="200000" />
+      <workItem from="1514274365025" duration="2792000" />
+      <workItem from="1514340936947" duration="1042000" />
+      <workItem from="1514370832247" duration="201000" />
+      <workItem from="1514371148152" duration="27000" />
+      <workItem from="1514372246908" duration="65000" />
+      <workItem from="1514373803563" duration="8605000" />
+      <workItem from="1514449666747" duration="734000" />
+      <workItem from="1514450410831" duration="806000" />
+      <workItem from="1514454649585" duration="477000" />
+      <workItem from="1514463817006" duration="3390000" />
+      <workItem from="1514513377730" duration="818000" />
+      <workItem from="1514541955549" duration="1315000" />
+      <workItem from="1514548934426" duration="182000" />
+      <workItem from="1514550056356" duration="3158000" />
+      <workItem from="1514560472058" duration="7542000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AdminDataServiceImplTest_add - 2017.12.30 at 22h 32m 24s.xml">
+      <configuration name="AdminDataServiceImplTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdminDataServiceImplTest_add - 2017.12.30 at 22h 33m 41s.xml">
+      <configuration name="AdminDataServiceImplTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdminDataServiceImplTest_addAdvancedUser - 2017.12.30 at 22h 38m 07s.xml">
+      <configuration name="AdminDataServiceImplTest.addAdvancedUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdminDataServiceImplTest_delete - 2017.12.30 at 22h 32m 39s.xml">
+      <configuration name="AdminDataServiceImplTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdminDataServiceImplTest_delete - 2017.12.30 at 22h 33m 21s.xml">
+      <configuration name="AdminDataServiceImplTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdminDataServiceImplTest_find - 2017.12.30 at 22h 35m 52s.xml">
+      <configuration name="AdminDataServiceImplTest.find" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdminDataServiceImplTest_find - 2017.12.30 at 22h 36m 27s.xml">
+      <configuration name="AdminDataServiceImplTest.find" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdminDataServiceImplTest_getUsers - 2017.12.30 at 22h 34m 12s.xml">
+      <configuration name="AdminDataServiceImplTest.getUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsSaleDataServiceImplTest_add - 2017.12.30 at 20h 57m 06s.xml">
+      <configuration name="GoodsSaleDataServiceImplTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogDataServiceImplTest_update - 2017.12.28 at 16h 44m 08s.xml">
+      <configuration name="LogDataServiceImplTest.update" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="103077000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1440" height="821" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257677" sideWeight="0.49722221" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261745" sideWeight="0.10208333" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31909212" sideWeight="0.8979167" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18472221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1701389" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/PresentListDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="82" column="19" lean-forward="false" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/OverflowListDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="86" column="20" lean-forward="true" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/StockReturnDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="80" column="51" lean-forward="false" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/StockDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/SaleDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="61" column="19" lean-forward="false" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/LogBLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a902921/b3bc41d0-c435-4053-85fc-1d9a1b69e441/system.Log">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a902921/b3bc41d0-c435-4053-85fc-1d9a1b69e441/system.GoodsOverflow">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a902921/b3bc41d0-c435-4053-85fc-1d9a1b69e441/system.Commodity">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/a902921/b3bc41d0-c435-4053-85fc-1d9a1b69e441/system.Commodity">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/GoodsDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="57" column="22" lean-forward="true" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rmi/RemoteHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/datatest/DateHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a902921/b3bc41d0-c435-4053-85fc-1d9a1b69e441/system.GoodsSale">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/datatest/GoodsSaleDataServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/StockReturnBLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="83" column="30" lean-forward="true" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/po/SaleReturnPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/po/StockPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/SaleReturnBLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/SaleBLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="970">
+          <caret line="81" column="16" lean-forward="true" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vo/SaleVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1477">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/SaleReturnDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/SaleBLServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a902921/b3bc41d0-c435-4053-85fc-1d9a1b69e441/system.Sale_GoodsSale">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/StockBLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a902921/b3bc41d0-c435-4053-85fc-1d9a1b69e441/system.Sale">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/UserDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/AdminDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/datafactory/DataFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="128" column="32" lean-forward="false" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/datafactory/DataFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="51" column="50" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runner/ServerRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/LogBLServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/VOChangeToPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="281" column="23" lean-forward="true" selection-start-line="281" selection-start-column="23" selection-end-line="281" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/POtoVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="275" column="36" lean-forward="false" selection-start-line="275" selection-start-column="36" selection-end-line="275" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/objects/HQLTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/po/GoodsSalePO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/po/SalePO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/po/MemberPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1298">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/po/GoodsPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="86" column="65" lean-forward="true" selection-start-line="85" selection-start-column="3" selection-end-line="86" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/po/AdminPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="41" column="65" lean-forward="false" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a902921/b3bc41d0-c435-4053-85fc-1d9a1b69e441/system.User">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/UserBLServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/dataservice/Impl/AdminDataServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/AdminDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/UserBLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a902921/b3bc41d0-c435-4053-85fc-1d9a1b69e441/system.Admin">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/dataservice/Impl/UserDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/AdminBLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="58" column="69" lean-forward="false" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/AdminBLServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="72" column="70" lean-forward="false" selection-start-line="72" selection-start-column="70" selection-end-line="72" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9600">
+          <caret line="660" column="5" lean-forward="true" selection-start-line="660" selection-start-column="5" selection-end-line="660" selection-end-column="5" />
+          <folding>
+            <element signature="e#20874#20875#0" expanded="true" />
+            <element signature="e#20926#20927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate|ERPServer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jxl</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
