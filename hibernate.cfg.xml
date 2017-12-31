@@ -7,7 +7,7 @@
         <!-- Database connection settings -->
 
         <!-- 表示使用 mysql 数据库驱动类 -->
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.driver_class"> com.mysql.cj.jdbc.Driver</property>
 
         <!-- jdbc 的连接 url 和数据库（使用我们之前新建的 hibernate） -->
         <property name = "connection.url">
