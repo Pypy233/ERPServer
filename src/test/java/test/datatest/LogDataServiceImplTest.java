@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import static org.junit.Assert.*;
 
 public class LogDataServiceImplTest {
+    /**
     LogDataService logDataService = new LogDataServiceImpl();
 
     @Test
@@ -70,6 +71,6 @@ public class LogDataServiceImplTest {
     public void findByOperation() throws Exception {
         ArrayList<LogPO> list = logDataService.findByOperation("删除商品");
         assertEquals(2, list.size());
-    }
+    }**/
 
 }

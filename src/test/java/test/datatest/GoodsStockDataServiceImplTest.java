@@ -10,6 +10,7 @@ import service.dataservice.Impl.GoodsStockDataServiceImpl;
 import static org.junit.Assert.*;
 
 public class GoodsStockDataServiceImplTest {
+    /**
     GoodsStockDataService goodsStockDataService = new GoodsStockDataServiceImpl();
     GoodsPO po = new GoodsPO( "长管台灯", "Lamp-LP",
             200, 15, 100, 18, 200);
@@ -51,6 +52,6 @@ public class GoodsStockDataServiceImplTest {
 
     }
 
-
+**/
 
 }
