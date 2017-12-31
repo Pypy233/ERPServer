@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import static org.junit.Assert.*;
 
 public class LogDataServiceImplTest {
-    /**
+
     LogDataService logDataService = new LogDataServiceImpl();
 
     @Test
@@ -25,7 +25,7 @@ public class LogDataServiceImplTest {
         ResultMessage msg = logDataService.add(po);
         assertEquals(ResultMessage.Success, msg);
     }
-
+/**
     @Test
     public void delete() throws Exception {
         LogPO po = new LogPO();
