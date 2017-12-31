@@ -4,6 +4,8 @@ jdk:
   - oraclejdk8
 services:
   - mysql
+  before_install:
+  - mysql -e 'CREATE DATABASE system;'
   test:
   database: system
   username: root
