@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1cdc9d0-79a2-4159-874e-171c7fd3011f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" />
-    </list>
+    <list default="true" id="d1cdc9d0-79a2-4159-874e-171c7fd3011f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,8 +86,8 @@
       <file leaf-file-name="LogDataServiceImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/datatest/LogDataServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="156">
+              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -427,7 +424,7 @@
       <workItem from="1514709574214" duration="8000" />
       <workItem from="1514709607494" duration="9000" />
       <workItem from="1514709666087" duration="1529000" />
-      <workItem from="1514717856917" duration="776000" />
+      <workItem from="1514717856917" duration="813000" />
     </task>
     <servers />
   </component>
@@ -464,7 +461,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2503000" />
+    <option name="totallyTimeSpent" value="2540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="6" />
@@ -862,8 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/datatest/LogDataServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="156">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding />
         </state>
       </provider>
