@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1cdc9d0-79a2-4159-874e-171c7fd3011f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java" afterPath="$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java" />
-    </list>
+    <list default="true" id="d1cdc9d0-79a2-4159-874e-171c7fd3011f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,8 +76,8 @@
       <file leaf-file-name="DataRemoteObject.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="239" column="61" lean-forward="false" selection-start-line="239" selection-start-column="61" selection-end-line="239" selection-end-column="61" />
+            <state relative-caret-position="191">
+              <caret line="227" column="18" lean-forward="false" selection-start-line="227" selection-start-column="17" selection-end-line="227" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -619,7 +617,7 @@
       <workItem from="1514709666087" duration="1529000" />
       <workItem from="1514717856917" duration="2594000" />
       <workItem from="1514724953470" duration="2551000" />
-      <workItem from="1514785025199" duration="3775000" />
+      <workItem from="1514785025199" duration="4181000" />
     </task>
     <servers />
   </component>
@@ -656,7 +654,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10647000" />
+    <option name="totallyTimeSpent" value="11053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="6" />
@@ -669,7 +667,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1388889" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1073,8 +1071,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="239" column="61" lean-forward="false" selection-start-line="239" selection-start-column="61" selection-end-line="239" selection-end-column="61" />
+        <state relative-caret-position="191">
+          <caret line="227" column="18" lean-forward="false" selection-start-line="227" selection-start-column="17" selection-end-line="227" selection-end-column="18" />
           <folding />
         </state>
       </provider>
