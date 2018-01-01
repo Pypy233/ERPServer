@@ -42,16 +42,9 @@ public class GoodsBLServiceImpl implements GoodsBLService {
 
     @Override
     public ArrayList<GoodsVO> findGoods(String number, String name, String type) throws RemoteException {
-        int len = 4;
-        /**
-         * 控制查询号码将int转为string(4)
-         */
-        while(number.length() < len)
-            number = "0" + number;
-
         ArrayList<GoodsVO> voList = new ArrayList<>();
         ArrayList<GoodsPO> poList = dataFactory.getGoodsDataService().find(number, name, type);
-
+        System.out.println(poList.size());
         if(poList.size() == 0)
             return null;
         for(int i = 0; i < poList.size(); i++){
@@ -69,6 +62,11 @@ public class GoodsBLServiceImpl implements GoodsBLService {
         }
         return voList;
     }
+
+   // public static void main(String[] args) throws RemoteException{
+     //   GoodsBLService goodsBLService = new GoodsBLServiceImpl();
+      //  ArrayList list = goodsBLService.findGoods("", "", "台");
+    //}  debug finished
 
 
 }

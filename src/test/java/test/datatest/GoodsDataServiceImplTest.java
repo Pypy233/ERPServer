@@ -24,6 +24,7 @@ public class GoodsDataServiceImplTest {
                 200, 15, 100, 18, 200);
         ResultMessage msg1 = goodsDataServiceImpl.add(po1);
 
+
         GoodsPO po2 = new GoodsPO("大台灯", "Lamp-L",
                 100, 20, 100, 18, 100);
         ResultMessage msg2 = goodsDataServiceImpl.add(po2);
@@ -94,9 +95,10 @@ public class GoodsDataServiceImplTest {
          * 测试根据编号准确查找
          */
 
-        String str = "1 长管台灯 Lamp-LP 200 15 100 18 200";
+        String str = "1 长管台灯 台灯 200 15.0 100.0 18.0 200.0";
         ArrayList list = goodsDataServiceImpl.find("0001" ,"","");
         ArrayList list1 = goodsDataServiceImpl.find("", "长", "");
+        ArrayList list2 = goodsDataServiceImpl.find("", "", "台灯");
 
         GoodsPO po = (GoodsPO)list.get(0);
 
@@ -104,8 +106,7 @@ public class GoodsDataServiceImplTest {
                 po.getPurchasePrice() + " " + po.getRetailPrice() + " " + po.getRecentPurPrice()+ " " +
                 po.getRecentRetPrice();
         assertEquals(str, str1);
-        assertEquals(18, po.getRecentPurPrice());
-        assertEquals(200, po.getRecentRetPrice());
+
 
         GoodsPO po1 = (GoodsPO)list.get(0);
 
@@ -113,8 +114,6 @@ public class GoodsDataServiceImplTest {
                 po1.getPurchasePrice() + " " + po1.getRetailPrice() + " " + po1.getRecentPurPrice()+ " " +
                 po1.getRecentRetPrice();
         assertEquals(str2, str1);
-        assertEquals(18, po1.getRecentPurPrice());
-        assertEquals(200, po1.getRecentRetPrice());
 
 
         /**
@@ -124,9 +123,12 @@ public class GoodsDataServiceImplTest {
         GoodsPO po2 = (GoodsPO) list1.get(0);
         assertEquals(1, list1.size());
         assertEquals("长管台灯", po.getName());
-        assertEquals("Lamp-LP", po.getType());
+        assertEquals("台灯" +
+                "", po.getType());
         assertEquals(200, po.getCommodityNum());
-        assertEquals(18, po.getRecentPurPrice());
+
+        assertEquals(3, list2.size());
+
     }
 
 }
