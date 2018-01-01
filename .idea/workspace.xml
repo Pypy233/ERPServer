@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1cdc9d0-79a2-4159-874e-171c7fd3011f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/datatest/bltest/GoodsBLServiceImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/test/datatest/GoodsDataServiceImplTest.class" afterPath="$PROJECT_DIR$/target/test-classes/test/datatest/GoodsDataServiceImplTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/blservice/Impl/GoodsBLServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/blservice/Impl/GoodsBLServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/blservice/Impl/MemberBLServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/blservice/Impl/MemberBLServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/blservice/MemberBLService.java" afterPath="$PROJECT_DIR$/src/main/java/service/blservice/MemberBLService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/datatest/GoodsDataServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/test/datatest/GoodsDataServiceImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java" afterPath="$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +55,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberBLServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MemberBLServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/MemberBLServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="356">
               <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerRunner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/runner/ServerRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataRemoteObject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="239" column="61" lean-forward="false" selection-start-line="239" selection-start-column="61" selection-end-line="239" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -104,12 +118,12 @@
         <option value="$PROJECT_DIR$/src/test/java/test/datatest/GoodsSaleDataServiceImplTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/service/dataservice/Impl/GoodsDataServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/datatest/bltest/GoodsBLServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/GoodsBLServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/datatest/GoodsDataServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/blservice/MemberBLService.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/blservice/Impl/MemberBLServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java" />
       </list>
     </option>
   </component>
@@ -207,6 +221,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rmi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ERPServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ERPServer" type="b2602c69:ProjectViewProjectNode" />
@@ -589,7 +619,7 @@
       <workItem from="1514709666087" duration="1529000" />
       <workItem from="1514717856917" duration="2594000" />
       <workItem from="1514724953470" duration="2551000" />
-      <workItem from="1514785025199" duration="3712000" />
+      <workItem from="1514785025199" duration="3775000" />
     </task>
     <servers />
   </component>
@@ -626,7 +656,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10584000" />
+    <option name="totallyTimeSpent" value="10647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="6" />
@@ -699,13 +729,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/po/StockReturnPO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/po/GoodsOverflowPO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -961,14 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
-          <caret line="234" column="54" lean-forward="false" selection-start-line="234" selection-start-column="54" selection-end-line="234" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/datatest/GoodsSaleDataServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -1042,8 +1057,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/blservice/Impl/MemberBLServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
+        <state relative-caret-position="356">
           <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runner/ServerRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rmi/DataRemoteObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="239" column="61" lean-forward="false" selection-start-line="239" selection-start-column="61" selection-end-line="239" selection-end-column="61" />
           <folding />
         </state>
       </provider>
