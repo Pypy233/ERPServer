@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 
 public class GoodsDataServiceImplTest {
     GoodsDataServiceImpl goodsDataServiceImpl = new GoodsDataServiceImpl();
-/**
+
     @Test
     public void add() throws Exception {
 
@@ -93,7 +93,7 @@ public class GoodsDataServiceImplTest {
         /**
          * 测试根据编号准确查找
          */
-/**
+
         String str = "1 长管台灯 Lamp-LP 200 15 100 18 200";
         ArrayList list = goodsDataServiceImpl.find("0001" ,"","");
         ArrayList list1 = goodsDataServiceImpl.find("", "长", "");
@@ -120,13 +120,13 @@ public class GoodsDataServiceImplTest {
         /**
          * 测试根据名称和型号模糊查找
          */
-/**
+
         GoodsPO po2 = (GoodsPO) list1.get(0);
         assertEquals(1, list1.size());
         assertEquals("长管台灯", po.getName());
         assertEquals("Lamp-LP", po.getType());
         assertEquals(200, po.getCommodityNum());
         assertEquals(18, po.getRecentPurPrice());
-    }**/
+    }
 
 }

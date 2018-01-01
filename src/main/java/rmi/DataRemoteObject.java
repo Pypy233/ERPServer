@@ -230,6 +230,11 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
         return memberBLService.find(memberClass, level, name, managePerson);
     }
 
+    @Override
+    public ArrayList<MemberVO> findMemberByName(String name) throws RemoteException {
+        return memberBLService.findMemberByName(name);
+    }
+
 
     @Override
     public ResultMessage addSale(String retailer, String salesman, String operator, double discount,

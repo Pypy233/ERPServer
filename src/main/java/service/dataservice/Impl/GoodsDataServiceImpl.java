@@ -65,7 +65,6 @@ public class GoodsDataServiceImpl implements GoodsDataService  {
 
     @Override
     public ArrayList<GoodsPO> find(String number, String name, String type) {
-        String operation = "";
         if(number == "")
             operation = "from Goods where name like '%" + name + "%' and type like '%" + type + "%'";
         else
