@@ -64,5 +64,15 @@ public class MemberBLServiceImpl implements MemberBLService {
         return voList;
     }
 
+    @Override
+    public ArrayList<MemberVO> findMemberByName(String name) throws RemoteException {
+        ArrayList<MemberPO> poList = dataFactory.getMemberDataService().find("", name, "");
+        ArrayList<MemberVO> voList = new ArrayList<>();
+        for(int i = 0; i < poList.size(); i++){
+            voList.add(pOtoVO.memberPO_to_memberVO(poList.get(i)));
+        }
+        return voList;
+    }
+
 
 }
