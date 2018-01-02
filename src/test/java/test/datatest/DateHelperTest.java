@@ -15,6 +15,7 @@ public class DateHelperTest {
     String s5 = "2017-12-12";
     String s6 = "2017-12-13";
     String s7 = "2017-01-01";
+    String s8 = "2017-06-06";
 
     @Test
     public void getDate() throws Exception {
@@ -38,6 +39,7 @@ public class DateHelperTest {
         assertEquals(true, dateHelper.isInRange(s3, s2, s7));
         assertEquals(true, dateHelper.isInRange(s3, s2, s5));
         assertEquals(false, dateHelper.isInRange(s3, s2, s6));
+        assertEquals(true, dateHelper.isInRange(s7, s6, s8));
     }
 
 }
