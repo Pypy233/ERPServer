@@ -94,7 +94,8 @@ DateHelper dateHelper = new DateHelper();
     @Override
     public ArrayList<GoodsSalePO> checkSale(String startTime, String endTime, String goodsName,
                                        String userName, String memberName) {
-        ArrayList<SalePO> list = getSale(startTime, endTime, userName, memberName);
+        ArrayList<SalePO> list = new ArrayList<>();
+        list = getSale(startTime, endTime, userName, memberName);
         ArrayList<GoodsSalePO> resultList = new ArrayList<>();
         for(int i = 0; i < list.size(); i++){
             Set<GoodsSalePO> set = list.get(i).getSaleSet();
