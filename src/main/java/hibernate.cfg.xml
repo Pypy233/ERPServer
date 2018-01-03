@@ -70,5 +70,7 @@
         <mapping class = "po.UserPO"/>
         <mapping class = "po.AdminPO"/>
         <mapping class = "po.LogPO"/>
+        <mapping class = "po.AccountPO"/>
+        <mapping class = "po.BankPO"/>
     </session-factory>
 </hibernate-configuration>
