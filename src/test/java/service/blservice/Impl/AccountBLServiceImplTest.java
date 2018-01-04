@@ -20,6 +20,5 @@ public class AccountBLServiceImplTest {
         bankSet.add(po);
         AccountPO po1 = new AccountPO(null, bankSet, null, "xddxxxxxxx");
         HQLTools.add(po1);
-
     }
 }
