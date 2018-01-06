@@ -51,6 +51,7 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     private AdminBLService adminBLService;
 
 
+
     protected DataRemoteObject() throws RemoteException{
         super();
         classifyBLService = new ClassifyBLServiceImpl();
@@ -107,8 +108,6 @@ public class DataRemoteObject extends UnicastRemoteObject implements ClassifyBLS
     public ArrayList<GoodsVO> getGoods(ClassifyVO vo) throws RemoteException {
         return classifyBLService.getGoods(vo);
     }
-
-
 
 
     @Override
