@@ -30,12 +30,6 @@ public interface GoodsDataService {
      */
     public ResultMessage update(GoodsPO po);
 
-    /**
-     * 显示商品信息，由keywords决定是显示全部还是部分信息
-     * @param keywords
-     * @return
-     */
-    public ArrayList<GoodsPO> retrive(String keywords);
 
     /**
      *

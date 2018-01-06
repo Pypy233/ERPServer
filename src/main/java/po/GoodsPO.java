@@ -82,7 +82,7 @@ public class GoodsPO implements Serializable {
     }
 
 
-
+    @Id
     @GeneratedValue(generator="increment")
     @GenericGenerator(name = "increment", strategy = "increment")
 
@@ -93,7 +93,7 @@ public class GoodsPO implements Serializable {
     public void setNumber(int number) {
         this.number = number;
     }
-    @Id
+
     public String getName() {
         return name;
     }

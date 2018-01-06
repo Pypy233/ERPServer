@@ -14,7 +14,7 @@ public class GoodsDataServiceImplTest {
 
     @Test
     public void add() throws Exception {
-
+/**
         GoodsPO po = new GoodsPO( 1,"长管台灯", "Lamp-LP",
                 200, 15, 100, 18, 200);
         ResultMessage msg = goodsDataServiceImpl.add(po);
@@ -31,7 +31,11 @@ public class GoodsDataServiceImplTest {
 
         assertEquals(msg, ResultMessage.Success);
         assertEquals(msg1, ResultMessage.Success);
-        assertEquals(msg2, ResultMessage.Success);
+        assertEquals(msg2, ResultMessage.Success);**/
+    GoodsPO po = new GoodsPO("s", "x",1, 1,
+            1, 1,1);
+    ResultMessage message = goodsDataServiceImpl.add(po);
+    assertEquals(ResultMessage.Success, message);
     }
 
     @Test

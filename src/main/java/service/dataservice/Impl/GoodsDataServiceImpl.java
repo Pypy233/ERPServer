@@ -53,15 +53,7 @@ public class GoodsDataServiceImpl implements GoodsDataService  {
         return ResultMessage.Success;
     }
 
-    /**
-     * retrive 有必要则实现
-     * @param keywords
-     * @return
-     */
-    @Override
-    public ArrayList<GoodsPO> retrive(String keywords) {
-        return null;
-    }
+
 
     @Override
     public ArrayList<GoodsPO> find(String number, String name, String type) {
