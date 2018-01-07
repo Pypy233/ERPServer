@@ -33,7 +33,7 @@ public class GoodsDataServiceImplTest {
         assertEquals(msg1, ResultMessage.Success);
         assertEquals(msg2, ResultMessage.Success);
 
-        
+
         GoodsPO po3 = new GoodsPO("s", "x",1, 1,
             1, 1,1);
         ResultMessage message = goodsDataServiceImpl.add(po3);
@@ -79,15 +79,16 @@ public class GoodsDataServiceImplTest {
            200, 15, 100, 18, 200);
           ResultMessage msg = goodsDataServiceImpl.update(po);
         assertEquals(ResultMessage.Success, msg);
-        GoodsPO po = new GoodsPO( 1, "长管台灯", "Lamp-LP",
+
+        GoodsPO po1 = new GoodsPO( 1, "长管台灯", "Lamp-LP",
                 200, 15, 100, 18, 200);
-        ResultMessage msg = goodsDataServiceImpl.update(po);
+        ResultMessage msg1 = goodsDataServiceImpl.update(po1);
         assertEquals(ResultMessage.Success, msg);
 
-        GoodsPO po1 = new GoodsPO(7, "不存在的台灯", "Lamp-NonExist",
+        GoodsPO po2 = new GoodsPO(7, "不存在的台灯", "Lamp-NonExist",
                 200, 15, 100, 18, 200);
 
-        ResultMessage msg1 = goodsDataServiceImpl.update(po1);
+        ResultMessage msg2 = goodsDataServiceImpl.update(po2);
         assertEquals(ResultMessage.Fail, msg1);
     }
 

@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 
 public class ClassifyDataServiceImplTest {
     ClassifyDataService classifyDataService = new ClassifyDataServiceImpl();
-/**
+
     @Test
     public void add() throws Exception {
         GoodsPO po2 = new GoodsPO( "大台灯", "Lamp-L",
@@ -71,5 +71,5 @@ public class ClassifyDataServiceImplTest {
     @Test
     public void contains() throws Exception {
     }
-**/
+
 }

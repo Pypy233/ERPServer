@@ -25,7 +25,7 @@ public class LogDataServiceImplTest {
         ResultMessage msg = logDataService.add(po);
         assertEquals(ResultMessage.Success, msg);
     }
-/**
+
     @Test
     public void delete() throws Exception {
         LogPO po = new LogPO();
@@ -71,6 +71,6 @@ public class LogDataServiceImplTest {
     public void findByOperation() throws Exception {
         ArrayList<LogPO> list = logDataService.findByOperation("删除商品");
         assertEquals(2, list.size());
-    }**/
+    }
 
 }
