@@ -14,7 +14,7 @@ public class GoodsDataServiceImplTest {
 
     @Test
     public void add() throws Exception {
-/**
+
         GoodsPO po = new GoodsPO( 1,"长管台灯", "Lamp-LP",
                 200, 15, 100, 18, 200);
         ResultMessage msg = goodsDataServiceImpl.add(po);
@@ -31,11 +31,13 @@ public class GoodsDataServiceImplTest {
 
         assertEquals(msg, ResultMessage.Success);
         assertEquals(msg1, ResultMessage.Success);
-        assertEquals(msg2, ResultMessage.Success);**/
-    GoodsPO po = new GoodsPO("s", "x",1, 1,
+        assertEquals(msg2, ResultMessage.Success);
+
+        
+        GoodsPO po3 = new GoodsPO("s", "x",1, 1,
             1, 1,1);
-    ResultMessage message = goodsDataServiceImpl.add(po);
-    assertEquals(ResultMessage.Success, message);
+        ResultMessage message = goodsDataServiceImpl.add(po3);
+        assertEquals(ResultMessage.Success, message);
     }
 
     @Test
@@ -73,10 +75,10 @@ public class GoodsDataServiceImplTest {
     @Test
     public void update() throws Exception {
 
-        //   GoodsPO po = new GoodsPO( 1, "短管台灯", "Lamp-SP",
-        //   200, 15, 100, 18, 200);
-        //  ResultMessage msg = goodsDataServiceImpl.update(po);
-        //assertEquals(ResultMessage.Success, msg);
+           GoodsPO po = new GoodsPO( 1, "短管台灯", "Lamp-SP",
+           200, 15, 100, 18, 200);
+          ResultMessage msg = goodsDataServiceImpl.update(po);
+        assertEquals(ResultMessage.Success, msg);
         GoodsPO po = new GoodsPO( 1, "长管台灯", "Lamp-LP",
                 200, 15, 100, 18, 200);
         ResultMessage msg = goodsDataServiceImpl.update(po);
