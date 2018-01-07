@@ -15,12 +15,12 @@ public class GoodsDataServiceImplTest {
     @Test
     public void add() throws Exception {
 
-        GoodsPO po = new GoodsPO( 1,"长管台灯", "Lamp-LP",
+        GoodsPO po = new GoodsPO( "长管台灯", "Lamp-LP",
                 200, 15, 100, 18, 200);
         ResultMessage msg = goodsDataServiceImpl.add(po);
         assertEquals(msg, ResultMessage.Success);
 
-        GoodsPO po1 = new GoodsPO( 2,"短管台灯", "Lamp-SP",
+        GoodsPO po1 = new GoodsPO( "短管台灯", "Lamp-SP",
                 200, 15, 100, 18, 200);
         ResultMessage msg1 = goodsDataServiceImpl.add(po1);
 
