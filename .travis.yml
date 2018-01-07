@@ -1,11 +1,6 @@
 language: java
 
 jdk:
-  - oraclejdk8
+  -oraclejdk8
 services:
-  - mysql
-  test:
-  database: system
-  username: root
-  password: 1212hjkl
-  encoding: utf8
+  -mysql
