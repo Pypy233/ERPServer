@@ -57,12 +57,17 @@ public class GoodsDataServiceImpl implements GoodsDataService  {
 
     @Override
     public ArrayList<GoodsPO> find(String number, String name, String type) {
-        if(number == "")
-            operation = "from Goods where name like '%" + name + "%' and type like '%" + type + "%'";
-        else
+        if(number == "" && name == "")
+            operation = "from Goods where type like '%" + type + "%'";
+        else if(number == "" && type == "")
+            operation = "from Goods where name like '%" + name + "'%";
+        else if(number == "" && type != "" && name != "")
+            operation = "from Goods where name like '%" + name + "'% and type like'%" + type + "%'";
+        else if(number != "" && name == "" && type == "")
             operation = "from Goods where number = '" + number + "'" ;
+
         resultList = (ArrayList<GoodsPO>) HQLTools.find(operation);
-        // Ought to be discussed
+        // Ought to be discussed, finished
         return resultList;
     }
 

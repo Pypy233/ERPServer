@@ -21,10 +21,9 @@ public class DataRemoteObjectTest {
         assertEquals(1, list.get(0).getCommodityNum());
 
         ArrayList<GoodsVO> list1 = dataRemoteObject.findGoods("", "台", "");
+        
 
-            //ffffffuck
-
-        assertEquals(3, list.size());
+        assertEquals(3, list1.size());
         System.out.println(list1.get(0).getName());
 
     }
