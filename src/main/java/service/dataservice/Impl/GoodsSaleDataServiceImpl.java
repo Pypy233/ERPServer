@@ -12,7 +12,6 @@ public class GoodsSaleDataServiceImpl implements GoodsSaleDataService {
     public ResultMessage add(GoodsSalePO po) {
         if(po == null)
             return ResultMessage.Fail;
-        po.setDate(dateHelper.getDate());
         HQLTools.add(po);
         return ResultMessage.Success;
     }
